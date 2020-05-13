@@ -1,3 +1,11 @@
+function languageSwap(lang, text) {
+  z = text.getElementsById("lang-link");
+  if (z) {
+    z.setAttribute("href", "lang");
+  }
+  return text;
+}
+
 function includeHTML() {
   var z, i, elmnt, file, xhttp;
   /*loop through a collection of all HTML elements:*/
@@ -12,11 +20,12 @@ function includeHTML() {
       xhttp.onreadystatechange = function() {
         if (this.readyState == 4) {
           if (this.status == 200) {
-            lang = elmnt.getAttribute("fr");
+            lang = elmnt.getAttribute("lang");
             if (lang) {
-              console.log(lang);
+              elmnt.innerHTML = languageSwap(lang, this.responseText);
+            } else {
+              elmnt.innerHTML = this.responseText;
             }
-            elmnt.innerHTML = this.responseText;
           }
           if (this.status == 404) {
             elmnt.innerHTML = "Page not found.";
