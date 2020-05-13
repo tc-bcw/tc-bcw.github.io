@@ -218,6 +218,7 @@ p .big {
 }
 .footer-map a:hover, a:active {
 	color: #ddd;
+	text-decoration:none;
 }
 .footer {
 	margin: 0 auto;
