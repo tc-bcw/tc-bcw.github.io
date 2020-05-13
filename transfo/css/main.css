@@ -240,10 +240,14 @@ p .big {
 	width:100px;
 	bottom: 10px;
 	right: 10px;
-	display: auto;
+	display: none;
 	background-color: #fff !important;
 	color: #da5a26 !important;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.045), 0 6px 20px 0 rgba(0, 0, 0, 0.045);
+	transition: .3s; 
+}
+.back-to-top:hover {
+	transform:scale(1.2);
 }
 .back-to-top p{
 	font-size: 12px;
@@ -252,10 +256,10 @@ p .big {
 .back-to-top svg {
 	width:14px;
 	/*margin: 0 7px;*/
-	transition: .3s; 
+	/*transition: .3s; */
 }
 .back-to-top svg:hover {
-	transform: scale(1.2);
+	/*transform: scale(1.2);*/
 	cursor: pointer; 
 }
 
@@ -267,6 +271,9 @@ p .big {
 
 	#outerBanner h1 {
 		font-size: 45px;
+	}
+	.back-to-top {
+		display:inherit;
 	}
 }
 
