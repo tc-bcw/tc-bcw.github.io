@@ -246,8 +246,9 @@ p .big {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.045), 0 6px 20px 0 rgba(0, 0, 0, 0.045);
 	transition: .3s; 
 }
-.back-to-top:hover {
+.back-to-top:hover, .back-to-top:active, .back-to-top:focus {
 	transform:scale(1.2);
+	background-color: #fff !important;
 }
 .back-to-top p{
 	font-size: 12px;
@@ -255,12 +256,6 @@ p .big {
 }
 .back-to-top svg {
 	width:14px;
-	/*margin: 0 7px;*/
-	/*transition: .3s; */
-}
-.back-to-top svg:hover {
-	/*transform: scale(1.2);*/
-	cursor: pointer; 
 }
 
 @media (min-width: 576px) {
