@@ -1,7 +1,9 @@
 function languageSwap(lang, txt) {
   console.log("<a id=\"lang-link\" href=\"#\">");
+  console.log("<a id=\"lang-link\" href=\"" + lang + "\">");
+  var ugh = txt.search("<a id=\"lang-link\" href=\"#\">");
+  console.log(ugh);
   txt.replace("<a id=\"lang-link\" href=\"#\">","<a id=\"lang-link\" href=\"" + lang + "\">");
-  console.log(txt);
   return txt;
 }
 
