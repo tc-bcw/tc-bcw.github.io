@@ -23,6 +23,7 @@ function includeHTML() {
         if (this.readyState == 4) {
           if (this.status == 200) {
             lang = elmnt.getAttribute("lang");
+            console.log("here's a try");
             if (lang) {
               elmnt.innerHTML = languageSwap(lang, this.responseText);
             } else {
