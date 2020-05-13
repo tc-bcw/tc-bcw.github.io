@@ -259,6 +259,11 @@ p .big {
 }
 
 @media (min-width: 576px) {
+	/* Revert nav line break fix */
+	.dropdown-toggle, .nav-link, .dropdown-item {
+	    white-space: nowrap;
+	}
+
 	#outerBanner h1 {
 		font-size: 45px;
 	}
