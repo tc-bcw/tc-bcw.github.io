@@ -141,7 +141,7 @@ p .big {
   background-color: #da5a26;
   border:none;
 }
-#outerBanner .btn:hover, .btn:focus, .btn:active {
+#outerBanner.btn:hover, #outerBanner.btn:focus, #outerBanner.btn:active {
   background-color: #bd4c20 !important;
   border:none;
   opacity: 1;
@@ -247,7 +247,7 @@ p .big {
 	transition: .3s; 
 }
 .back-to-top:hover, .back-to-top:active, .back-to-top:focus {
-	transform:scale(1.2);
+	transform:scale(1.05);
 	background-color: #fff !important;
 }
 .back-to-top p{
