@@ -14,7 +14,7 @@ function includeHTML() {
           if (this.status == 200) {
             lang = elmnt.getAttribute("fr");
             if (lang) {
-              console.print(lang);
+              console.log(lang);
             }
             elmnt.innerHTML = this.responseText;
           }
