@@ -1,5 +1,8 @@
 function languageSwap(lang, txt) {
+  console.log(txt);
   txt.replace("<a id=\"lang-link\" href=\"#\">","<a id=\"lang-link\" href=\"" + lang + "\">");
+  console.log("swap to");
+  console.log(txt);
   return txt;
 }
 
