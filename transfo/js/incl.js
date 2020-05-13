@@ -1,9 +1,6 @@
-function languageSwap(lang, text) {
-  z = text.getElementById("lang-link");
-  if (z) {
-    z.setAttribute("href", "lang");
-  }
-  return text;
+function languageSwap(lang, txt) {
+  txt.replace("<a id=\"lang-link\" href=\"#\">","<a id=\"lang-link\" href=\" + lang + \">");
+  return txt;
 }
 
 function includeHTML() {
