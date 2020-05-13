@@ -1,15 +1,3 @@
-function languageSwap(lang, txt) {
-  console.log("<a id=\"lang-link\" href=\"#\">");
-  console.log(lang);
-  console.log("<a id=\"lang-link\" href=\"" + lang + "\">");
-  var ugh = txt.search("<a id=\"lang-link\" href=\"#\">");
-  console.log(ugh);
-  newTxt = txt.replace("<a id=\"lang-link\" href=\"#\">","<a id=\"lang-link\" href=\"" + lang + "\">");
-  console.log("-----");
-  console.log(newTxt);
-  return newTxt;
-}
-
 function includeHTML() {
   var z, i, elmnt, file, xhttp;
   /*loop through a collection of all HTML elements:*/
@@ -26,7 +14,7 @@ function includeHTML() {
           if (this.status == 200) {
             lang = elmnt.getAttribute("lang");
             if (lang) {
-              elmnt.innerHTML = languageSwap(lang, this.responseText);
+              elmnt.innerHTML = this.responseText.replace("<a id=\"lang-link\" href=\"#\">","<a id=\"lang-link\" href=\"" + lang + "\">");
             } else {
               elmnt.innerHTML = this.responseText;
             }
