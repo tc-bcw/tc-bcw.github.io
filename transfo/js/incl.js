@@ -12,6 +12,10 @@ function includeHTML() {
       xhttp.onreadystatechange = function() {
         if (this.readyState == 4) {
           if (this.status == 200) {
+            lang = elmnt.getAttribute("fr");
+            if (lang) {
+              console.print(lang);
+            }
             elmnt.innerHTML = this.responseText;
           }
           if (this.status == 404) {
