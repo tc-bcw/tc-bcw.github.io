@@ -4,8 +4,10 @@ function languageSwap(lang, txt) {
   console.log("<a id=\"lang-link\" href=\"" + lang + "\">");
   var ugh = txt.search("<a id=\"lang-link\" href=\"#\">");
   console.log(ugh);
-  txt.replace("<a id=\"lang-link\" href=\"#\">","<a id=\"lang-link\" href=\"" + lang + "\">");
-  return txt;
+  newTxt = txt.replace("<a id=\"lang-link\" href=\"#\">","<a id=\"lang-link\" href=\"" + lang + "\">");
+  console.log("-----");
+  console.log(newTxt);
+  return newTxt;
 }
 
 function includeHTML() {
@@ -23,12 +25,10 @@ function includeHTML() {
         if (this.readyState == 4) {
           if (this.status == 200) {
             lang = elmnt.getAttribute("lang");
-            console.log("here's a try");
             if (lang) {
               elmnt.innerHTML = languageSwap(lang, this.responseText);
             } else {
               elmnt.innerHTML = this.responseText;
-              console.log("something is wrong");
             }
           }
           if (this.status == 404) {
