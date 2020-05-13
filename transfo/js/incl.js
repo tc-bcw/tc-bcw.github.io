@@ -1,5 +1,5 @@
 function languageSwap(lang, text) {
-  z = text.getElementsById("lang-link");
+  z = text.getElementById("lang-link");
   if (z) {
     z.setAttribute("href", "lang");
   }
