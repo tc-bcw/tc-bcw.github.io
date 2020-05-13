@@ -141,7 +141,19 @@ p .big {
   background-color: #da5a26;
   border:none;
 }
-#outerBanner.btn:hover, #outerBanner.btn:focus, #outerBanner.btn:active {
+#outerBanner.btn:hover {
+  background-color: #bd4c20 !important;
+  border:none;
+  opacity: 1;
+  transform: translate(0, 2px); 
+}
+#outerBanner.btn:focus {
+  background-color: #bd4c20 !important;
+  border:none;
+  opacity: 1;
+  transform: translate(0, 2px); 
+}
+#outerBanner.btn:active {
   background-color: #bd4c20 !important;
   border:none;
   opacity: 1;
