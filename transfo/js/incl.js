@@ -27,6 +27,7 @@ function includeHTML() {
               elmnt.innerHTML = languageSwap(lang, this.responseText);
             } else {
               elmnt.innerHTML = this.responseText;
+              console.log("something is wrong");
             }
           }
           if (this.status == 404) {
