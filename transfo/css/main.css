@@ -185,7 +185,10 @@ p .big {
 .info-boxes {
 	text-align:center;
 }
-.info-box{
+.info-boxes h2 {
+	font-size:25pt;
+}
+.info-box {
 	transition: .3s;
 	background-color: #fff;
 	border-radius: 5px;
@@ -217,6 +220,7 @@ p .big {
 
 /* Footer */
 .footer-map {
+	display:none;
 	background:#555; 
 	color:#fff;
 	font-size:10pt;
@@ -278,6 +282,9 @@ p .big {
 
 	#outerBanner h1 {
 		font-size: 45px;
+	}
+	.footer-map {
+		display:inherit;
 	}
 	.back-to-top {
 		display:inherit;
