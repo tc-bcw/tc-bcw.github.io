@@ -30,8 +30,26 @@
    <script src="js/popper.min.js"></script>
    <script src="js/bootstrap.min.js"></script>
    <script src="js/main.js"></script>
-</head>
 
+   <!-- FullCalendar install -->
+  <link href='fullcalendar/core/main.css' rel='stylesheet' />
+  <link href='fullcalendar/daygrid/main.css' rel='stylesheet' />
+
+  <script src='fullcalendar/core/main.js'></script>
+  <script src='fullcalendar/daygrid/main.js'></script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var calendarEl = document.getElementById('calendar');
+
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+          plugins: [ 'dayGrid', 'list', 'bootstrap' ]
+        });
+
+        calendar.render();
+      });
+    </script>
+</head>
 <body>
 
 
@@ -40,7 +58,9 @@
 
 
         <!-- ***** CONTENT GOES HERE ***** -->
-
+<div class="container">
+  <h1>Calendar test</h1>
+  <div id="calendar"></div>
         <!-- ***** CONTENT END ***** -->
 
 
