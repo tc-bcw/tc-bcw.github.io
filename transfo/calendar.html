@@ -43,7 +43,8 @@
         var calendarEl = document.getElementById('calendar');
 
         var calendar = new FullCalendar.Calendar(calendarEl, {
-          plugins: [ 'dayGrid', 'list', 'bootstrap' ]
+          plugins: [ 'dayGrid', 'list', 'bootstrap' ],
+          events: '/transfo/fullcalendar/events.json'
         });
         calendar.render();
       });
