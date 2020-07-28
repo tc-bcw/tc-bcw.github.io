@@ -88,7 +88,7 @@ p .big {
 /* Nav */
 .navbar {
 	background-color: #fff;
-	min-height:130px;
+	min-height:auto;
 	/*padding: 20px 20px;*/
 }
 .navbar-brand {
@@ -279,7 +279,7 @@ p .big {
 @media (min-width: 576px) {
 
 	.navbar {
-		min-height:auto;
+		min-height:130px;
 	}
 	/* Revert nav line break fix */
 	.dropdown-toggle, .nav-link, .dropdown-item {
