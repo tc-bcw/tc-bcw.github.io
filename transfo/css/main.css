@@ -231,7 +231,7 @@ p .big {
 	font-size:0.8em;
 }
 #back-to-top a:focus, #back-to-top a:hover {
-	opacity: 0.8;
+	opacity: 0.7;
 }
 #questions {
 	text-align:center;
