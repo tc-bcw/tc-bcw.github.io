@@ -104,6 +104,10 @@ p .big {
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
 	color: rgba(0,0,0,1);
 }
+.dropdown-menu {
+	background-color:#eee;
+}
+
 /* Fix nav line break issue */
 .dropdown-toggle, .nav-link, .dropdown-item {
     white-space: normal;
@@ -281,7 +285,6 @@ p .big {
 	.navbar {
 		min-height:130px;
 	}
-
 	#lang-toggle {
 		position:relative; 
 		top:-50px; 
@@ -290,15 +293,15 @@ p .big {
 		border-radius:0 0 5px 5px; 
 		padding:0px 5px;
 	}
-
 	#lang-toggle .nav-link {
 		color: rgba(255,255,255,1);
 	}
-
 	#lang-toggle .nav-link:focus, #lang-toggle .nav-link:hover {
 		color: rgba(255,255,255,1);
 	}
-
+	.dropdown-menu {
+		background-color:#fff;
+	}
 
 	/* Revert nav line break fix */
 	.dropdown-toggle, .nav-link, .dropdown-item {
