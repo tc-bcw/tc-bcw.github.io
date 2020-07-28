@@ -60,30 +60,11 @@ p .big {
 	width: auto; 
 }
 
-
-/* TC branding banner */
-.banner-div{
-	background-color: #fff;
-	height: 40px;
+/*Orange top line*/
+.top-gap {
+	height:20px; 
+	background-color:#da5a26;
 }
-.banner-right-img {
-	height: 40px;
-	width: auto;
-	right: 0px;
-	position: absolute;
-}
-
-/* French toggle - CMT OUT FOR TESTING*/ 
-/*#french-toggle {
-	display: flex;
-	justify-content: flex-end;
-	padding: 10px 20px;
-	background-color: #fff;
-}
-#french-toggle a {
-	font-weight: 600;
-	color: #3B89AD;
-}*/
 
 /* Nav */
 .navbar {
@@ -233,30 +214,32 @@ p .big {
 .footer-content{
 	padding:50px 0 35px 0;
 }
+#TC-logo img {
+	max-width: 300px; 
+	margin-top: 20px;
+}
+#back-to-top a {
+	text-align: center;
+	display:block;
+	max-width:150px;
+	margin:0 auto;
+	border:2px #000 solid;
+	padding:10px;
+	border-radius:10px;
+	color:#000;
+	text-decoration:none;
+	font-size:0.8em;
+}
+#questions {
+	text-align:center;
+	padding-top:20px;
+}
+#footer-pattern {
+	width:100%; 
+	min-width:1000px;
+}
 
-/* Back to top button */
-.back-to-top {
-	position: fixed;
-	width:100px;
-	bottom: 10px;
-	right: 10px;
-	display: none;
-	background-color: #fff !important;
-	color: #da5a26 !important;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.045), 0 6px 20px 0 rgba(0, 0, 0, 0.045);
-	transition: .3s; 
-}
-/*.back-to-top:hover, .back-to-top:active, .back-to-top:focus {
-	transform:scale(1.05);
-	background-color: #fff !important;
-}*/
-.back-to-top p{
-	font-size: 12px;
-	margin: 0px
-}
-.back-to-top svg {
-	width:14px;
-}
+
 
 @media (min-width: 576px) {
 
