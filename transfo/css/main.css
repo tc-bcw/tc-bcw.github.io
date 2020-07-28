@@ -281,6 +281,25 @@ p .big {
 	.navbar {
 		min-height:130px;
 	}
+
+	#lang-toggle {
+		position:relative; 
+		top:-50px; 
+		background-color:#da5a26; 
+		color:#fff; 
+		border-radius:0 0 5px 5px; 
+		padding:0px 5px;
+	}
+
+	#lang-toggle .nav-link {
+		color: rgba(255,255,255,1);
+	}
+
+	#lang-toggle .nav-link:focus, #lang-toggle .nav-link:hover {
+		color: rgba(255,255,255,1);
+	}
+
+
 	/* Revert nav line break fix */
 	.dropdown-toggle, .nav-link, .dropdown-item {
 	    white-space: nowrap;
