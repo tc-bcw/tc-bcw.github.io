@@ -14,9 +14,8 @@ function includeHTML() {
           if (this.status == 200) {
             lang = elmnt.getAttribute("lang");
             if (lang) {
-              console.log("brand new test");
               var newText = this.responseText;
-              elmnt.innerHTML = newText.replace("Transformation","Trfoejspation");
+              elmnt.innerHTML = newText.replace("id=\"lang-link\" href=\"#\"","id=\"lang-link\" href=\"" + lang + "\"");
             } else {
               elmnt.innerHTML = this.responseText;
             }
