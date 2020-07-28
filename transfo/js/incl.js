@@ -18,7 +18,7 @@ function includeHTML() {
               console.log(lang);
               console.log(this.responseText.search("id=\"lang-link\" href=\"#\""));
               var newText = this.responseText.replace("id=\"lang-link\" href=\"#\"","id=\"lang-link\" href=\"" + lang + "\"");
-              elmnt.innerHTML = newText;
+              elmnt.innerHTML = "ugh";
             } else {
               elmnt.innerHTML = this.responseText;
             }
