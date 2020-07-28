@@ -107,6 +107,9 @@ p .big {
 .dropdown-menu {
 	background-color:#eee;
 }
+#lang-toggle {
+	font-weight:bold;
+}
 
 /* Fix nav line break issue */
 .dropdown-toggle, .nav-link, .dropdown-item {
@@ -285,23 +288,6 @@ p .big {
 	.navbar {
 		min-height:130px;
 	}
-	#lang-toggle {
-		position:relative; 
-		top:-50px; 
-		background-color:#da5a26; 
-		color:#fff; 
-		border-radius:0 0 5px 5px; 
-		padding:0px 5px;
-	}
-	#lang-toggle .nav-link {
-		color: rgba(255,255,255,1);
-	}
-	#lang-toggle .nav-link:focus, #lang-toggle .nav-link:hover {
-		color: rgba(255,255,255,1);
-	}
-	.dropdown-menu {
-		background-color:#fff;
-	}
 
 	/* Revert nav line break fix */
 	.dropdown-toggle, .nav-link, .dropdown-item {
@@ -320,6 +306,24 @@ p .big {
 }
 
 @media (min-width: 768px) {
+	#lang-toggle {
+		position:relative; 
+		top:-50px; 
+		background-color:#da5a26; 
+		color:#fff; 
+		border-radius:0 0 5px 5px; 
+		padding:0px 5px;
+		font-weight:normal;
+	}
+	#lang-toggle .nav-link {
+		color: rgba(255,255,255,1);
+	}
+	#lang-toggle .nav-link:focus, #lang-toggle .nav-link:hover {
+		color: rgba(255,255,255,1);
+	}
+	.dropdown-menu {
+		background-color:#fff;
+	}
 	#outerBanner {
 		padding: 100px 6em 100px 6em;
 	}
