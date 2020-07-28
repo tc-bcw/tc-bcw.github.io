@@ -73,8 +73,8 @@ p .big {
 	position: absolute;
 }
 
-/* French toggle */
-#french-toggle {
+/* French toggle - CMT OUT FOR TESTING*/ 
+/*#french-toggle {
 	display: flex;
 	justify-content: flex-end;
 	padding: 10px 20px;
@@ -83,7 +83,7 @@ p .big {
 #french-toggle a {
 	font-weight: 600;
 	color: #3B89AD;
-}
+}*/
 
 /* Nav */
 .navbar {
