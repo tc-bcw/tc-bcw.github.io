@@ -14,11 +14,9 @@ function includeHTML() {
           if (this.status == 200) {
             lang = elmnt.getAttribute("lang");
             if (lang) {
-              console.log("got here");
-              console.log(lang);
+              console.log(this.responseText);
               console.log(this.responseText.search("id=\"lang-link\" href=\"#\""));
-              var newText = this.responseText.replace("id=\"lang-link\" href=\"#\"","id=\"lang-link\" href=\"" + lang + "\"");
-              elmnt.innerHTML = "ugh";
+              elmnt.innerHTML = this.responseText.replace("id=\"lang-link\" href=\"#\"","id=\"lang-link\" href=\"" + lang + "\"");
             } else {
               elmnt.innerHTML = this.responseText;
             }
