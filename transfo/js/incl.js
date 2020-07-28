@@ -14,9 +14,11 @@ function includeHTML() {
           if (this.status == 200) {
             lang = elmnt.getAttribute("lang");
             if (lang) {
-              console.log(this.responseText);
+              console.log("ok?");
               console.log(this.responseText.search("id=\"lang-link\" href=\"#\""));
-              elmnt.innerHTML = this.responseText.replace("id=\"lang-link\" href=\"#\"","id=\"lang-link\" href=\"" + lang + "\"");
+              var newText = this.responseText;
+              var newText2 = newText.replace("id=\"lang-link\" href=\"#\"","id=\"lang-link\" href=\"" + lang + "\"");
+              elmnt.innerHTML = newText2;
             } else {
               elmnt.innerHTML = this.responseText;
             }
