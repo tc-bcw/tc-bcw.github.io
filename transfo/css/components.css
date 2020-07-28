@@ -1,0 +1,9 @@
+/* Carousel */
+
+.carousel-item {
+	height:80vh; 
+	max-height:600px; 
+	min-height:200px; 
+	overflow:hidden; 
+	background-size:cover;
+}
