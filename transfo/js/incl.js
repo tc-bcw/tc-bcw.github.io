@@ -14,12 +14,13 @@ function includeHTML() {
           if (this.status == 200) {
             lang = elmnt.getAttribute("lang");
             if (lang) {
-              console.log("pls work");
+              console.log("new test");
               var newText = this.responseText;
               console.log(newText.search("id=\"lang-link\" href=\"#\""));
               var newText2 = newText.replace("id=\"lang-link\" href=\"#\"","id=\"lang-link\" href=\"" + lang + "\"");
               elmnt.innerHTML = newText2;
             } else {
+              console.log("u better not")
               elmnt.innerHTML = this.responseText;
             }
           }
