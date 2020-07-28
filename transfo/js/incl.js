@@ -14,14 +14,10 @@ function includeHTML() {
           if (this.status == 200) {
             lang = elmnt.getAttribute("lang");
             if (lang) {
-              console.log("new new test");
+              console.log("brand new test");
               var newText = this.responseText;
-              console.log(newText.search("id=\"lang-link\" href=\"#\""));
-              var newText2 = newText.replace("id=\"lang-link\" href=\"#\"","id=\"lang-link\" href=\"" + lang + "\"");
-              elmnt.innerHTML = newText2;
+              elmnt.innerHTML = newText.replace("Transformation","Trfoejspation");
             } else {
-              console.log("u better not")
-              console.log(this.responseText)
               elmnt.innerHTML = this.responseText;
             }
           }
