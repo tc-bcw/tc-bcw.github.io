@@ -230,12 +230,15 @@ p .big {
 	text-decoration:none;
 	font-size:0.8em;
 }
+#back-to-top a:focus, #back-to-top a:hover {
+	opacity: 0.8;
+}
 #questions {
 	text-align:center;
 	padding-top:20px;
 }
 #footer-pattern {
-	width:100%; 
+	width:100%;
 	min-width:1000px;
 }
 
