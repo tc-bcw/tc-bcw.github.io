@@ -214,6 +214,11 @@ p .big {
 .footer-content{
 	padding:50px 0 35px 0;
 }
+#TC-logo a {
+	display: block;
+	max-width:250px;
+	margin:0 auto;
+}
 #TC-logo img {
 	max-width: 300px; 
 	margin-top: 20px;
