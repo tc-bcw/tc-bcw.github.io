@@ -228,17 +228,7 @@ p .big {
 
 /* Footer */
 .footer {
-	margin: 0 auto;
-	background-color: #FFF;
-	text-align: center;
-	color: #fff;
-	padding: 4em;
-	padding-bottom: 4em;
-	width: 100%;
 	border-top: 2px solid #efefef;
-}
-.footer img {
-	width: 160px;
 }
 
 /* Back to top button */
@@ -278,9 +268,6 @@ p .big {
 
 	#outerBanner h1 {
 		font-size: 45px;
-	}
-	.footer-map {
-		display:inherit;
 	}
 	.back-to-top {
 		display:inherit;
