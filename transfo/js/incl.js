@@ -21,7 +21,7 @@ function includeHTML() {
               elmnt.innerHTML = newText2;
             } else {
               console.log("u better not")
-              console.log("this.responseText")
+              console.log(this.responseText)
               elmnt.innerHTML = this.responseText;
             }
           }
