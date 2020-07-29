@@ -38,12 +38,24 @@
 .carousel-control-next-icon {
 	background-image:url("/transfo/images/arrow-right-white.svg");
 }
-.pause-control a {
-	text-align:right;
-	padding-right:25px;
+.pause-control {
+	text-align:center;
 	text-transform: uppercase;
+	font-size:10pt;
 	color:#595959;
 	text-decoration:none;
+	z-index:999;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	justify-content: center;
+	padding-left: 0;
+	margin-right: 15%;
+	margin-left: 15%;
 }
 
 
