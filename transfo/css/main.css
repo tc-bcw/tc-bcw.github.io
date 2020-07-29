@@ -168,6 +168,9 @@ p .big {
 .modal-header button {
 	color:#fff;
 }
+.modal-header button:hover, .modal-header button:active, .modal-header button:focus {
+	opacity:0.85;
+}
 .modal-body {
 	padding:0px;
 	height:80vh;
