@@ -163,6 +163,9 @@ p .big {
 .modal-header {
 	padding:0.5rem 1rem;
 	background-color:#000;
+	border-bottom:none;
+}
+.modal-header button {
 	color:#fff;
 }
 .modal-body {
