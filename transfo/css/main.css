@@ -110,6 +110,7 @@ p .big {
 }
 .btn-orange:active, .btn-orange:hover {
 	background-color:#cf5b1b;
+	border-color:#cf5b1b;
 }
 
 
