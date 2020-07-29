@@ -2,7 +2,7 @@
 
 $(function () {
     $('#carouselIndicators').carousel({
-        interval:2000,
+        interval:5000,
         pause: "false"
     });
     
