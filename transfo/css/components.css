@@ -25,6 +25,9 @@
 .carousel-control-prev-icon {
 	background-image:url("/transfo/images/arrow-left-white.svg");
 }
+.carousel-control-next-icon {
+	background-image:url("/transfo/images/arrow-right-white.svg");
+}
 
 
 
