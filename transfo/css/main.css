@@ -172,6 +172,7 @@ p .big {
 /* Footer */
 .footer {
 	border-top: 2px solid #efefef;
+	background-color:#fff;
 }
 .footer-content{
 	padding:50px 0 35px 0;
