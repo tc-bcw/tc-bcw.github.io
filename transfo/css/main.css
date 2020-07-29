@@ -217,6 +217,8 @@ p .big {
 
 	.navbar {
 		min-height:130px;
+		background-color:rgba(255,255,255,0.7);
+		z-index:9999;
 	}
 
 	/* Revert nav line break fix */
