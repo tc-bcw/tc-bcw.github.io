@@ -162,6 +162,8 @@ p .big {
 }
 .modal-header {
 	padding:0.5rem 1rem;
+	background-color:#000;
+	color:#fff;
 }
 .modal-body {
 	padding:0px;
