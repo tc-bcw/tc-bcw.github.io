@@ -169,6 +169,22 @@ p .big {
 }
 
 
+/* Transfo Plan */
+.subsection {
+	text-align:center;
+	padding:50px 0 20px 0;
+}
+.subsection h2 {
+	font-size:25px; 
+	color:#00698c; 
+	text-transform:uppercase;
+}
+.subsection p {
+	font-size:16px;
+	color:#df6420;
+}
+
+
 /* Footer */
 .footer {
 	border-top: 2px solid #efefef;
@@ -211,7 +227,6 @@ p .big {
 	width:100%;
 	min-width:1000px;
 }
-
 
 
 @media (min-width: 576px) {
