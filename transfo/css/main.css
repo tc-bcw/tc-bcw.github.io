@@ -172,7 +172,7 @@ p .big {
 /* Transfo Plan */
 .subsection {
 	text-align:center;
-	padding:50px 0 20px 0;
+	padding:70px 0 20px 0;
 }
 .subsection h2 {
 	font-size:25px; 
@@ -234,7 +234,7 @@ p .big {
 	.navbar {
 		min-height:130px;
 		background-color:rgba(255,255,255,0.7);
-		z-index:9999;
+		z-index:999;
 	}
 
 	/* Revert nav line break fix */
