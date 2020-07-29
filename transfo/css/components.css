@@ -26,7 +26,7 @@
 	color:#595959;
 	font-size:18pt;
 }
-.carousel-caption button {
+.carousel-caption a {
 	color:#fff;
 	background-color:#df6420;
 	border-color:#df6420;
@@ -40,10 +40,6 @@
 }
 .pause-control {
 	text-align:center;
-	text-transform: uppercase;
-	font-size:10pt;
-	color:#595959;
-	text-decoration:none;
 	z-index:999;
 	position: absolute;
 	right: 0;
@@ -57,6 +53,12 @@
 	margin-right: 15%;
 	margin-left: 15%;
 }
+.pause-control a {
+	color:#595959;
+	text-transform: uppercase;
+	font-size: 9pt;
+	text-decoration:none;
+}
 
 /* Info boxes */
 .info-boxes {
@@ -66,12 +68,10 @@
 	font-size:25pt;
 }
 .info-box {
-	background-color: #fff;
-	border-radius: 5px;
-	padding: 3em 3em 3em 3em;
-	margin-bottom: 25px;
-	color: #2E2E2E;
+	color: #fff;
 	background-color: #00698c;
+	max-width:350px;
+	margin:0 auto;
 	/* min-height: 450px;  */
 	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.02);*/
 }
@@ -82,11 +82,13 @@
 }
 .info-box h3 {
 	font-size: 20px;
+	margin-top: 20px;
 	margin-bottom: 20px;
 }
 .info-box p {
 	font-size: 16px;
 }
+.info-box
 
 
 /* Banner */
