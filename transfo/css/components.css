@@ -2,7 +2,7 @@
 
 .carousel-item {
 	height:70vh; 
-	max-height:600px; 
+	max-height:400px; 
 	min-height:300px; 
 	overflow:hidden; 
 	background-size:cover;
@@ -70,7 +70,6 @@
 .info-box {
 	position:relative;
 	color: #fff;
-	background-color: #00698c;
 	max-width:350px;
 	margin:0 auto;
 	padding-bottom:10px;
@@ -82,7 +81,12 @@
 	height:250px;
 	background-size:cover;
 }
-.info-box h3 {
+.info-title {
+	background-color: #00698c;
+	padding:15px 5px;
+	min-height:40px;
+}
+.info-title h3 {
 	font-size: 20px;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -92,10 +96,10 @@
 	display: flex;
 	-ms-flex-pack: center;
 	justify-content: center;
-	position:absolute;
+	position:relative;
 	left:0;
 	right:0;
-	bottom:-15px;
+	top:-15px;
 	margin-right:15%;
 	margin-left:15%;
 }
