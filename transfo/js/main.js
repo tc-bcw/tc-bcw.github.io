@@ -1,15 +1,15 @@
 // Carousel controls
 
 $(function () {
-    $('#myCarousel').carousel({
+    $('#carouselIndicators').carousel({
         interval:2000,
         pause: "false"
     });
     
     $('#playButton').click(function () {
-        $('#myCarousel').carousel('cycle');
+        $('#carouselIndicators').carousel('cycle');
     });
     $('#pauseButton').click(function () {
-        $('#myCarousel').carousel('pause');
+        $('#carouselIndicators').carousel('pause');
     });
 });
