@@ -97,6 +97,10 @@ p .big {
     white-space: normal;
 }
 
+.beige-bg {
+	background-color:rgb(246,245,240);
+}
+
 
 /* Info boxes */
 .info-boxes {
