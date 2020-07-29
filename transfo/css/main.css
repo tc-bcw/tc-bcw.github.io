@@ -169,7 +169,7 @@ p .big {
 	color:#fff;
 }
 .modal-header button:hover, .modal-header button:active, .modal-header button:focus {
-	opacity:0.85;
+	opacity:1 !important;
 }
 .modal-body {
 	padding:0px;
