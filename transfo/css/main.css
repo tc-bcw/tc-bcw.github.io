@@ -122,7 +122,7 @@ p .big {
 .video {
 	 background-size:cover;
 	 width:100%;
-	 height:400px;
+	 height:600px;
 	 position:relative;
 }
 .shade {
@@ -132,7 +132,7 @@ p .big {
 	background-color:rgba(255,255,255,0.75);
 	width:100%;
 	max-width:500px;
-	height:400px;
+	height:600px;
 }
 .video-left .shade {
 	right:auto;
