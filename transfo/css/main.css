@@ -102,6 +102,12 @@ p .big {
 	background-color:rgb(246,245,240);
 }
 
+.btn-orange {
+	color:#fff;
+	background-color:#df6420;
+	border-color:#df6420;
+}
+
 
 /* Footer */
 .footer {
