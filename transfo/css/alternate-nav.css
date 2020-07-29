@@ -7,7 +7,7 @@
 .navbar-brand-fr {
 	background-image: url(/transfo/images/tc-transformation-logo-white-fr.svg);
 }
-.nav-item {
+.nav-link {
 	color: #fff;
 	font-weight:bold;
 }
