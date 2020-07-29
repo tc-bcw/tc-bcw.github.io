@@ -107,6 +107,8 @@
 }
 .info-btn a img {
 	width:20px;	
+	position:relative;
+	top:-1px;
 }
 
 
