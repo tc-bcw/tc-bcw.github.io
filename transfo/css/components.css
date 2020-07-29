@@ -102,6 +102,9 @@
 .info-btn a {
 	font-size: 16px;	
 }
+.info-btn a img {
+	width:20px;	
+}
 
 
 /* Banner */
