@@ -145,7 +145,7 @@ p .big {
 }
 #back-to-top a:focus, #back-to-top a:hover {
 	opacity: 0.7;
-	background-color:#222;
+	background-color:#ddd;
 }
 #questions {
 	text-align:center;
