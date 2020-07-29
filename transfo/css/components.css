@@ -43,7 +43,7 @@
 	z-index:999;
 	position: absolute;
 	right: 0;
-	bottom: -25;
+	bottom: -25px;
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-pack: center;
@@ -56,21 +56,22 @@
 	text-transform: uppercase;
 	font-size: 9pt;
 	text-decoration:none;
-	margin-top:25px;
 }
 
 /* Info boxes */
 .info-boxes {
-	text-align:center;
+	text-align:center;;
 }
 .info-boxes h2 {
 	font-size:25pt;
 }
 .info-box {
+	position:relative;
 	color: #fff;
 	background-color: #00698c;
 	max-width:350px;
 	margin:0 auto;
+	padding-bottom:10px;
 	/* min-height: 450px;  */
 	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.02);*/
 }
@@ -84,10 +85,17 @@
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-.info-box p {
+.info-box a {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	justify-content: center;
 	font-size: 16px;
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:-15px;
 }
-.info-box
 
 
 /* Banner */
