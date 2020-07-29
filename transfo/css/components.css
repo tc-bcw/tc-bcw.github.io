@@ -31,13 +31,18 @@
 	background-color:#df6420;
 	border-color:#df6420;
 	font-weight: bold;
-	text-transform: capitalize;
 }
 .carousel-control-prev-icon {
 	background-image:url("/transfo/images/arrow-left-white.svg");
 }
 .carousel-control-next-icon {
 	background-image:url("/transfo/images/arrow-right-white.svg");
+}
+.pause-control a {
+	text-align:right;
+	padding-right:25px;
+	text-transform: uppercase;
+	color:#595959;
 }
 
 
