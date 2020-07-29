@@ -108,9 +108,9 @@ p .big {
 	border-color:#df6420;
 	padding-bottom: 0.3rem;
 }
-.btn-orange:active, .btn-orange:hover {
-	background-color:#cf5b1b;
-	border-color:#cf5b1b;
+.btn-orange:active, .btn-orange:hover, .btn-orange:focus {
+	background-color:#cf5b1b !important;
+	border-color:#cf5b1b !important;
 }
 
 
