@@ -134,7 +134,7 @@ p .big {
 	max-width: 300px; 
 	margin-top: 20px;
 }
-#back-to-top a {
+#back-to-top a, #back-to-top a:active {
 	text-align: center;
 	display:block;
 	max-width:150px;
@@ -145,6 +145,7 @@ p .big {
 	color:#000;
 	text-decoration:none;
 	font-size:0.8em;
+	background-color:#fff;
 }
 #back-to-top a:focus, #back-to-top a:hover {
 	opacity: 0.7;
