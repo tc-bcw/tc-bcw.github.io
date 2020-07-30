@@ -85,7 +85,6 @@ p .big {
 	max-width:500px;
 	width:100%;
 	background:#fff;
-	height:200px;
 	margin:30vh auto;
 	padding:20px;
 }
@@ -96,7 +95,7 @@ p .big {
 	text-align:center;
 }
 .landing-lang a {
-	margin-top:30px;
+	margin:30px 0;
 }
 
 /*Orange top line*/
