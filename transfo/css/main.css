@@ -297,13 +297,20 @@ p .big {
 	text-align: center; 
 	font-size: 14pt; 
 	color: #fff; 
-	padding:50px 25px;
+	padding:50px 20px 75px 20px;
 	background-color: #00698c;
 	font-weight:bold;
+}
+.transfo-plan-print a {
+	text-decoration:none;
 }
 .transfo-plan-print img {
 	width:50px;
 	margin:0 auto;
+	position: absolute;
+	bottom: 10px;
+	left: 0px;
+	right: 0px;
 }
 
 /* Footer */
