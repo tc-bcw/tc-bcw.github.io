@@ -295,10 +295,14 @@ p .big {
 }
 .transfo-plan-print {
 	text-align: center; 
-	font-size: 18pt; 
+	font-size: 14pt; 
 	color: #fff; 
 	padding:25px 5px;
 	background-color: #00698c;
+}
+.transfo-plan-print img {
+	width:50px;
+	margin:0 auto;
 }
 
 /* Footer */
