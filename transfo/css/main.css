@@ -231,6 +231,11 @@ p .big {
 	color:#00698c; 
 	text-transform:uppercase;
 }
+.subsection-alt h2 {
+	color:#fff;
+	padding:15px 25px;
+	background-color:#00698c;
+}
 .subsection p {
 	font-size:16px;
 	color:#df6420;
@@ -284,7 +289,7 @@ p .big {
 .transfo-plan-print {
 	text-align: center; 
 	font-size: 18pt; 
-	color: #00698c; 
+	color: #fff; 
 	padding:25px 5px;
 	background-color: #00698c;
 }
