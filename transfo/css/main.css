@@ -92,6 +92,12 @@ p .big {
 .landing-content img {
 	width:100%;
 }
+.landing-lang {
+	text-align:center;
+}
+.landing-lang a {
+	margin-top:30px;
+}
 
 /*Orange top line*/
 .top-gap {
