@@ -1,16 +1,19 @@
-.navbar {
-	background-color: rgba(255,255,255,0);
-}
-.navbar-brand-en {
-	background-image: url(/transfo/images/tc-transformation-logo-white.svg);
-}
-.navbar-brand-fr {
-	background-image: url(/transfo/images/tc-transformation-logo-white-fr.svg);
-}
-.nav-link {
-	color: #fff !important;
-	font-weight:bold;
-}
-.navbar-toggler {
-	background:#fff;
+
+@media (min-width: 1200px) {
+	.navbar {
+		background-color: rgba(255,255,255,0);
+	}
+	.navbar-brand-en {
+		background-image: url(/transfo/images/tc-transformation-logo-white.svg);
+	}
+	.navbar-brand-fr {
+		background-image: url(/transfo/images/tc-transformation-logo-white-fr.svg);
+	}
+	.nav-link {
+		color: #fff !important;
+		font-weight:bold;
+	}
+	.navbar-toggler {
+		background:#fff;
+	}
 }
