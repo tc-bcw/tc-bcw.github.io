@@ -272,10 +272,22 @@ p .big {
 	font-size:18px;
 	text-align:center;
 }
+.transfo-plan .img {
+	width:250px;
+	max-width:100%;
+	margin:20px auto;
+}
+
 .transfo-plan img {
 	width:100%;
 }
-
+.transfo-plan-print {
+	text-align: center; 
+	font-size: 18pt; 
+	color: #00698c; 
+	padding:25px 5px;
+	background-color: #00698c;
+}
 
 /* Footer */
 .footer {
