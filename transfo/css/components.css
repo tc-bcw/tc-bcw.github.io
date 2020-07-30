@@ -113,10 +113,15 @@
 
 /* Header - compatible with Alt Nav */
 header.header {
+	position:fixed;
 	height:400px; 
 	margin-bottom:50px;
 }
 .header-image {
+	position:absolute; 
+	left:0;
+	top:0;
+	background-size: cover;
 	width:100%; 
 	z-index:-10;
 	height:400px;
@@ -136,11 +141,12 @@ header.header {
 }
 
 @media (min-width: 1200px) {
-	.header-image {
-		background-size: cover;
-		position:absolute; 
-		left:0; top:20px; 
+	header.header {
+		position:relative;
+	}
+	.header-image { 
 		height:530px; 
+		top:20px;
 	}
 }
 
