@@ -81,6 +81,10 @@
 	padding:15px 5px;
 	min-height:40px;
 }
+.info-title img {
+	margin:0 auto;
+	width:130px;
+}
 .info-title h3 {
 	font-size: 20px;
 	margin-top: 20px;
