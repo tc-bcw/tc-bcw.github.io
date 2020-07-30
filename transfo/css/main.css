@@ -268,6 +268,13 @@ p .big {
 	text-decoration:none; 
 	margin-top:25px;
 }
+.transfo-plan h3 {
+	font-size:18px;
+	text-align:center;
+}
+.transfo-plan img {
+	width:100%;
+}
 
 
 /* Footer */
