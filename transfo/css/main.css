@@ -65,23 +65,20 @@ p .big {
 
 /*Landing page*/
 .landing-bg {
-	height: 200%;
-	left: -50%;
+	height: 100%;
 	position: fixed;
-	top: -50%;
-	width: 200%;; 
+	width: 100%;; 
 }
 .landing-bg img {
+	position: absolute;
 	height: auto;
-	max-width: 100%;
+	margin: auto;
 	bottom: 0;
 	left: 0;
-	margin: auto;
-	min-height: 50%;
-	min-width: 50%;
-	position: absolute;
 	right: 0;
 	top: 0;
+	min-height: 100%;
+	min-width: 100%;
 }
 .landing-content {
 	display: -ms-flexbox;
