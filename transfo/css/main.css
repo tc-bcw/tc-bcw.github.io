@@ -81,18 +81,8 @@ p .big {
 	min-width: 100%;
 }
 .landing-content {
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-pack: center;
-	justify-content: center;
-	position:absolute;
-	left:0;
-	right:0;
-	top:30%;
-	margin-right:15%;
-	margin-left:15%;
-	width:300px;
-	max-width:100%;
+	max-width:300px;
+	width:100%;
 	background:#fff;
 	height:200px;
 }
