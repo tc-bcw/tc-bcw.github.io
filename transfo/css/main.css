@@ -231,10 +231,17 @@ p .big {
 	color:#00698c; 
 	text-transform:uppercase;
 }
+.subsection-alt {
+	margin:20px auto 30px auto;
+	padding:20px;
+	background-color: #00698c;
+	min-width:300px;
+	width:max-content;
+	width: -moz-max-content;
+}
 .subsection-alt h2 {
 	color:#fff;
-	padding:15px 25px;
-	background-color:#00698c;
+	margin-bottom:0;
 }
 .subsection p {
 	font-size:16px;
@@ -278,7 +285,7 @@ p .big {
 	text-align:center;
 }
 .transfo-plan .img {
-	width:250px;
+	width:300px;
 	max-width:100%;
 	margin:20px auto;
 }
