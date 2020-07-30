@@ -297,8 +297,9 @@ p .big {
 	text-align: center; 
 	font-size: 14pt; 
 	color: #fff; 
-	padding:25px 5px;
+	padding:50px 25px;
 	background-color: #00698c;
+	font-weight:bold;
 }
 .transfo-plan-print img {
 	width:50px;
