@@ -294,6 +294,22 @@ p .big {
 }
 
 @media (min-width: 768px) {
+	#outerBanner {
+		padding: 100px 6em 100px 6em;
+	}
+	#outerBanner h1 {
+		margin-top: 40px;
+	}
+	#banner {
+		padding: 4em;
+		max-width: 600px;
+		margin: 0 auto;
+		-webkit-backdrop-filter: blur(15px) saturate(200%);;
+		backdrop-filter: blur(15px) saturate(200%);
+	}
+}
+
+@media (min-width: 1200px) {
 	#lang-toggle {
 		position:relative; 
 		top:-50px; 
@@ -312,19 +328,4 @@ p .big {
 	.dropdown-menu {
 		background-color:#fff;
 	}
-	#outerBanner {
-		padding: 100px 6em 100px 6em;
-	}
-	#outerBanner h1 {
-		margin-top: 40px;
-	}
-	#banner {
-		padding: 4em;
-		max-width: 600px;
-		margin: 0 auto;
-		-webkit-backdrop-filter: blur(15px) saturate(200%);;
-		backdrop-filter: blur(15px) saturate(200%);
-	}
 }
-
-
