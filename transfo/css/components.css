@@ -111,18 +111,15 @@
 	top:-1px;
 }
 
-/* Alternate Nav Banner */
+/* Header - compatible with Alt Nav */
 header.header {
 	height:400px; 
 	margin-bottom:50px;
 }
 .header-image {
-	background-size:cover; 
-	position:absolute; 
-	left:0; top:20px; 
-	height:530px; 
 	width:100%; 
 	z-index:-10;
+	height:400px;
 }
 .header-icon {
 	width:150px; 
@@ -136,6 +133,15 @@ header.header {
 	color:#fff; 
 	text-align:center; 
 	font-size:31pt;
+}
+
+@media (min-width: 1200px) {
+	.header-image {
+		background-size: cover;
+		position:absolute; 
+		left:0; top:20px; 
+		height:530px; 
+	}
 }
 
 
