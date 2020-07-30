@@ -82,10 +82,14 @@ p .big {
 	z-index:-100;
 }
 .landing-content {
-	max-width:300px;
+	max-width:500px;
 	width:100%;
 	background:#fff;
 	height:200px;
+	margin:30vh auto;
+}
+.landing-content img {
+	width:100%;
 }
 
 /*Orange top line*/
