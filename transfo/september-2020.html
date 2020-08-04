@@ -58,9 +58,13 @@
         themeSystem: 'bootstrap',
         events: '/transfo/fullcalendar/events.json',
         initialDate: "2020-09-01",
-        headerToolbar: false,
         aspectRatio: 2,
-        showNonCurrentDates: false
+        showNonCurrentDates: false,
+        headerToolbar: {
+          start: 'title', // will normally be on the left. if RTL, will be on the right
+          center: '',
+          end: '' // will normally be on the right. if RTL, will be on the left
+        }
       });
       calendar.render();
     });
