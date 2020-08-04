@@ -3,54 +3,54 @@
     "title": "TC Talks",
     "start": "2020-09-01",
     "url": "#event1",
-    "class": "orange"
+    "classNames": "orange"
   },
   {
     "title": "Conference Series",
     "start": "2020-09-07",
     "end": "2020-09-10",
     "url": "#event2",
-    "class": "orange"
+    "classNames": "orange"
   },
   {
     "id": "999",
     "title": "Webinar",
     "start": "2020-09-09T16:00:00-05:00",
     "url": "#event3",
-    "class": "blue"
+    "classNames": "blue"
   },
   {
     "id": "999",
     "title": "Webinar",
     "start": "2020-09-16T16:00:00-05:00",
     "url": "#event3",
-    "class": "blue"
+    "classNames": "blue"
   },
   {
     "id": "999",
     "title": "Webinar",
     "start": "2020-09-23T16:00:00-05:00",
     "url": "#event3",
-    "class": "blue"
+    "classNames": "blue"
   },
   {
     "id": "999",
     "title": "Webinar",
     "start": "2020-09-30T16:00:00-05:00",
     "url": "#event3",
-    "class": "blue"
+    "classNames": "blue"
   },
   {
     "title": "Workshop",
     "start": "2020-09-14",
     "end": "2020-09-15",
     "url": "#event4",
-    "class": "green"
+    "classNames": "green"
   },
   {
     "title": "Workshop",
     "start": "2020-09-22T10:30:00-05:00",
     "url": "#event5",
-    "class": "green"
+    "classNames": "green"
   }
 ]
