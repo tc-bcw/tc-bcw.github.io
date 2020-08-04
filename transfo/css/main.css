@@ -167,8 +167,16 @@ p .big {
 .fc-right {
 	/*display:none;*/
 }
-.fc-event-container {
-	
+.fc-event-container .orange {
+	background-color:#df6420;
+}
+
+.fc-event-container .blue {
+	background-color:#00698c;
+}
+
+.fc-event-container .green {
+	background-color:#b4bf23;
 }
 
 /* Video page */
