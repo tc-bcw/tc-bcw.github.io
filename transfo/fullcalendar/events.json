@@ -1,37 +1,56 @@
 [
   {
-    "title": "All Day Event",
+    "title": "TC Talks",
     "start": "2020-09-01",
-    "url": "#event1"
+    "url": "#event1",
+    "class": "orange"
   },
   {
-    "title": "Long Event",
+    "title": "Conference Series",
     "start": "2020-09-07",
     "end": "2020-09-10",
-    "url": "#event2"
+    "url": "#event2",
+    "class": "orange"
   },
   {
     "id": "999",
-    "title": "Repeating Event",
+    "title": "Webinar",
     "start": "2020-09-09T16:00:00-05:00",
-    "url": "#event3"
+    "url": "#event3",
+    "class": "blue"
   },
   {
     "id": "999",
-    "title": "Repeating Event",
+    "title": "Webinar",
     "start": "2020-09-16T16:00:00-05:00",
-    "url": "#event3"
+    "url": "#event3",
+    "class": "blue"
   },
   {
-    "title": "Conference",
+    "id": "999",
+    "title": "Webinar",
+    "start": "2020-09-23T16:00:00-05:00",
+    "url": "#event3",
+    "class": "blue"
+  },
+  {
+    "id": "999",
+    "title": "Webinar",
+    "start": "2020-09-30T16:00:00-05:00",
+    "url": "#event3",
+    "class": "blue"
+  },
+  {
+    "title": "Workshop",
     "start": "2020-09-14",
     "end": "2020-09-15",
-    "url": "#event4"
+    "url": "#event4",
+    "class": "green"
   },
   {
-    "title": "Meeting",
-    "start": "2020-09-11T10:30:00-05:00",
-    "end": "2020-09-11T12:30:00-05:00",
-    "url": "#event5"
+    "title": "Workshop",
+    "start": "2020-09-22T10:30:00-05:00",
+    "url": "#event5",
+    "class": "green"
   }
 ]
