@@ -167,19 +167,19 @@ p .big {
 .fc-right {
 	/*display:none;*/
 }
-.fc-day-grid-event {
-	border:#fff;
-}
 .fc-event-container .orange {
 	background-color:#df6420;
+	border-color:#df6420;
 }
 
 .fc-event-container .blue {
 	background-color:#00698c;
+	border-color:#00698c;
 }
 
 .fc-event-container .green {
 	background-color:#7cccbd;
+	border-color:#7cccbd;
 }
 
 /* Video page */
