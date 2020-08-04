@@ -167,6 +167,9 @@ p .big {
 .fc-right {
 	/*display:none;*/
 }
+.fc-event-container
+	border:none;
+}
 .fc-event-container .orange {
 	background-color:#df6420;
 }
