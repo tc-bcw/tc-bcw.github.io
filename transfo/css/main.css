@@ -162,6 +162,12 @@ p .big {
 	border-color:#cf5b1b !important;
 }
 
+/* FullCalendar styling */
+
+.fc-right {
+	display:none;
+}
+
 /* Video page */
 .video {
 	 background-size:cover;
