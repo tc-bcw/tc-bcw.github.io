@@ -167,7 +167,7 @@ p .big {
 .fc-right {
 	/*display:none;*/
 }
-.fc-event-container {
+.fc-day-grid-event {
 	border:none;
 }
 .fc-event-container .orange {
