@@ -168,7 +168,7 @@ p .big {
 	/*display:none;*/
 }
 .fc-day-grid-event {
-	border:none;
+	border:none !important;
 }
 .fc-event-container .orange {
 	background-color:#df6420;
