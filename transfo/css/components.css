@@ -88,6 +88,11 @@
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+.info-title p {
+	color:#fff;
+	text-align:left;
+	margin:0 10px 20px;
+}
 .info-btn {
 	display: -ms-flexbox;
 	display: flex;
