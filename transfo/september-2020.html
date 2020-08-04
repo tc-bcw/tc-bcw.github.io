@@ -45,16 +45,18 @@
     <!-- FullCalendar install -->
   <link href='/transfo/fullcalendar/core/main.css' rel='stylesheet' />
   <link href='/transfo/fullcalendar/daygrid/main.css' rel='stylesheet' />
+  <link href='/transfo/fullcalendar/bootstrap/main.css' rel='stylesheet' />
 
   <script src='/transfo/fullcalendar/core/main.js'></script>
   <script src='/transfo/fullcalendar/daygrid/main.js'></script>
+  <script src='/transfo/fullcalendar/bootstrap/main.js'></script>
 
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       var calendarEl = document.getElementById('calendar');
 
       var calendar = new FullCalendar.Calendar(calendarEl, {
-        plugins: ['dayGrid'],
+        plugins: ['dayGrid','bootstrap'],
         themeSystem: 'bootstrap',
         events: '/transfo/fullcalendar/events.json',
         initialDate: new Date(2020, 9, 31),
