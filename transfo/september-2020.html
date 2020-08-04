@@ -59,7 +59,11 @@
         plugins: ['dayGrid','bootstrap'],
         themeSystem: 'bootstrap',
         events: '/transfo/fullcalendar/events.json',
-        initialDate: new Date(2020, 9, 31),
+        initialDate: '2020-09-30',
+        validRange: {
+          start: '2020-09-01',
+          end: '2017-09-30'
+        },
         aspectRatio: 2,
         showNonCurrentDates: false,
         headerToolbar: {
