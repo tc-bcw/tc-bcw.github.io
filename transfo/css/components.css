@@ -94,6 +94,12 @@
 	text-align:left;
 	margin:0 10px 20px;
 }
+.info-content {
+	width:100%;
+	background-color:#fff;
+	padding:10px 5px;
+	color:#000;
+}
 .info-btn {
 	display: -ms-flexbox;
 	display: flex;
