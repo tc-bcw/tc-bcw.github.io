@@ -154,7 +154,7 @@ hr.break {
 /* Homepage */
 .beige-bg {
 	background-color:rgb(246,245,240);
-	padding:50px 0;
+	padding:25px 0;
 }
 
 .btn-orange {
@@ -251,6 +251,7 @@ hr.break {
 .subsection {
 	text-align:center;
 	padding:20px 0 20px 0;
+	margin-top:25px;
 }
 .subsection h2 {
 	font-size:25px; 
@@ -259,7 +260,7 @@ hr.break {
 	margin-top:0px;
 }
 .subsection-alt {
-	margin:20px auto 30px auto;
+	margin:25px auto 30px auto;
 	padding:20px;
 	background-color: #00698c;
 	min-width:300px;
