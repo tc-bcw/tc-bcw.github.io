@@ -56,10 +56,7 @@
 }
 
 /* Info boxes */
-.info-boxes {
-	text-align:center;;
-}
-.info-boxes h2 {
+.info-boxes h1, .info-boxes h2, .info-boxes h3, .info-boxes h4, .info-boxes h5, .info-boxes h6, {
 	font-size:25pt;
 	color: #fff;
 }
@@ -69,6 +66,7 @@
 	max-width:350px;
 	margin:0 auto;
 	padding-bottom:10px;
+	text-align:center;
 }
 .info-img {
 	width:100%;
