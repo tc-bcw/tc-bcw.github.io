@@ -95,8 +95,8 @@
 </div>
 <div class="container">
   <div class="subsection">
-    <h2>Highlighted subsection</h2>
-    <p>Subtitle text goes here</p>
+      <h2>Highlighted subsection</h2>
+      <p>Subtitle text goes here</p>
   </div>
   <p>Aliquam quis dignissim ligula, et elementum lacus. Sed at velit ut lorem ornare laoreet. Cras malesuada nibh et elit iaculis malesuada eu pellentesque nisi. Integer convallis a velit nec dignissim. Duis dui lacus, aliquet efficitur eros accumsan, mattis scelerisque nibh. Vivamus scelerisque, nulla placerat efficitur congue, urna neque consectetur erat, vel ultrices libero ante et tellus.</p>
   <hr class="break">
@@ -105,108 +105,139 @@
   </div>
   <p>Pellentesque magna odio, rutrum non ex vel, vestibulum consequat mauris. Sed dapibus ultrices sapien ut cursus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc et libero ex. Vestibulum eget mauris hendrerit, semper ligula quis, ullamcorper mi. Etiam lacinia nec tellus non feugiat. </p>
   <p>Praesent at urna eu nisi fringilla semper. Donec diam sapien, volutpat ac justo non, varius rutrum enim. Aliquam dignissim tortor leo, at feugiat arcu tincidunt ac. Nam facilisis risus in gravida pharetra. Nam eget libero in tortor malesuada congue. Nulla non nisl a nisl faucibus dapibus id sed lectus.</p>
-<hr class="break">
-<h2>Carousel</h2>
+  <hr class="break">
+  <h2>Carousel</h2>
 
-<div id="carouselIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active w-100" style="background-image:url(/transfo/images/homepage/home-page-header.jpg);">
-      <div class="carousel-caption d-none d-sm-block">
-        <h5>What's new</h5>
-        <p>This carousel will keep you up to speed!</p>
-        <a role="button" class="btn btn-secondary btn-lg btn-orange">Learn more</a>
+  <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active w-100" style="background-image:url(/transfo/images/homepage/home-page-header.jpg);">
+        <div class="carousel-caption d-none d-sm-block">
+          <h5>What's new</h5>
+          <p>This carousel will keep you up to speed!</p>
+          <a role="button" class="btn btn-secondary btn-lg btn-orange">Learn more</a>
+        </div>
+      </div>
+      <div class="carousel-item w-100" style="background-image:url(https://hdqwalls.com/wallpapers/canada-landscape-4k.jpg);">
+        <div class="carousel-caption d-none d-sm-block">
+          <h5>Faces of Change</h5>
+          <p>Your great colleague is doing great things!</p>
+          <a role="button" class="btn btn-secondary btn-lg btn-orange">Learn more</a>
+        </div>
+      </div>
+      <div class="carousel-item w-100" style="background-image:url(https://blu5sh.files.wordpress.com/2012/01/canada-beautiful-landscape-122-2.jpg);">
+        <div class="carousel-caption d-none d-sm-block">
+          <h5>Transformation Theme</h5>
+          <p>Learn more about transformation with events and activities! </p>
+          <a role="button" class="btn btn-secondary btn-lg btn-orange">Learn more</a>
+        </div>
       </div>
     </div>
-    <div class="carousel-item w-100" style="background-image:url(https://hdqwalls.com/wallpapers/canada-landscape-4k.jpg);">
-      <div class="carousel-caption d-none d-sm-block">
-        <h5>Faces of Change</h5>
-        <p>Your great colleague is doing great things!</p>
-        <a role="button" class="btn btn-secondary btn-lg btn-orange">Learn more</a>
+    <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <div class="pause-control">
+      <a id="pauseButton" >Pause carousel</a>
+    </div>
+  </div>
+
+  <hr class="break">
+  <h2>Infoboxes</h2>
+  <h3>Variation 1</h3>
+  <div class="row">
+         <!----------------------BOX 1---------------------->
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="info-box">
+            <div class="info-img" style="background-image:url('/transfo/images/homepage/whats-new.jpg')"></div>
+            <div class="info-title">
+              <h3>What's new</h3>
+            </div>
+            <div class="info-btn">
+              <a class="btn btn-primary btn-lg btn-orange" href="#" role="button">View <img src="/transfo/images/homepage/arrow-white.svg"></a>
+            </div>
+          </div>
+        </div>
+         <!----------------------BOX 2---------------------->
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="info-box">
+            <div class="info-img" style="background-image:url('/transfo/images/homepage/transformation-at-a-glance.jpg')"></div>
+            <div class="info-title">
+              <h3>Transformation at a Glance</h3>
+            </div>
+            <div class="info-btn">
+              <a class="btn btn-primary btn-lg btn-orange" href="#" role="button">View <img src="/transfo/images/homepage/arrow-white.svg"></a>
+            </div>
+          </div>
+        </div>
+  </div>
+  <h3>Variation 2</h3>
+  <div class="row">
+         <!----------------------BOX 1---------------------->
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="info-box">
+            <div class="info-title">
+              <img src="/transfo/images/homepage/icons/whats-new-icon.svg">
+              <h3>What's new</h3>
+            </div>
+            <div class="info-btn">
+              <a class="btn btn-primary btn-lg btn-orange" href="#" role="button">View <img src="/transfo/images/homepage/arrow-white.svg"></a>
+            </div>
+          </div>
+        </div>
+         <!----------------------BOX 2---------------------->
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="info-box">
+            <div class="info-title">
+              <img src="/transfo/images/homepage/icons/transformation-at-a-glance-icon.svg">
+              <h3>Transformation at a Glance</h3>
+            </div>
+            <div class="info-btn">
+              <a class="btn btn-primary btn-lg btn-orange" href="#" role="button">View <img src="/transfo/images/homepage/arrow-white.svg"></a>
+            </div>
+          </div>
+        </div>
+  </div>
+  <hr class="break">
+  <h2>Event listing</h2>
+  <div class="row">
+     <!----------------------BOX 1---------------------->
+    <div id="event1" class="col-sm-6 col-lg-4">
+      <div class="info-box">
+        <div class="info-title">
+          <img src="/transfo/images/homepage/icons/whats-new-icon.svg">
+          <h3>TC Talks</h3>
+          <span><strong>September 1</strong></span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris posuere varius eros ac interdum. </p>
+        </div>
+        <div class="info-btn">
+          <a class="btn btn-primary btn-lg btn-orange" href="#" role="button">Register&nbsp;<img src="/transfo/images/homepage/arrow-white.svg"></a>
+        </div>
       </div>
     </div>
-    <div class="carousel-item w-100" style="background-image:url(https://blu5sh.files.wordpress.com/2012/01/canada-beautiful-landscape-122-2.jpg);">
-      <div class="carousel-caption d-none d-sm-block">
-        <h5>Transformation Theme</h5>
-        <p>Learn more about transformation with events and activities! </p>
-        <a role="button" class="btn btn-secondary btn-lg btn-orange">Learn more</a>
+     <!----------------------BOX 2---------------------->
+    <div id="event2"class="col-sm-6 col-lg-4">
+      <div class="info-box">
+        <div class="info-title">
+          <img src="/transfo/images/homepage/icons/whats-new-icon.svg">
+          <h3>Conference Series</h3>
+          <span><strong>September 7-10</strong></span>
+          <p>In varius congue ligula, id tincidunt arcu euismod ac. Mauris sem eros, vestibulum eu dui id, cursus convallis ipsum.</p>
+        </div>
+        <div class="info-btn">
+          <a class="btn btn-primary btn-lg btn-orange" href="#" role="button">Register&nbsp;<img src="/transfo/images/homepage/arrow-white.svg"></a>
+        </div>
       </div>
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-  <div class="pause-control">
-    <a id="pauseButton" >Pause carousel</a>
-  </div>
-</div>
-
-<hr class="break">
-<h2>Infoboxes</h2>
-<h3>Variation 1</h3>
-<div class="row">
-       <!----------------------BOX 1---------------------->
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <div class="info-box">
-          <div class="info-img" style="background-image:url('/transfo/images/homepage/whats-new.jpg')"></div>
-          <div class="info-title">
-            <h3>What's new</h3>
-          </div>
-          <div class="info-btn">
-            <a class="btn btn-primary btn-lg btn-orange" href="#" role="button">View <img src="/transfo/images/homepage/arrow-white.svg"></a>
-          </div>
-        </div>
-      </div>
-       <!----------------------BOX 2---------------------->
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <div class="info-box">
-          <div class="info-img" style="background-image:url('/transfo/images/homepage/transformation-at-a-glance.jpg')"></div>
-          <div class="info-title">
-            <h3>Transformation at a Glance</h3>
-          </div>
-          <div class="info-btn">
-            <a class="btn btn-primary btn-lg btn-orange" href="#" role="button">View <img src="/transfo/images/homepage/arrow-white.svg"></a>
-          </div>
-        </div>
-      </div>
-</div>
-<h3>Variation 2</h3>
-<div class="row">
-       <!----------------------BOX 1---------------------->
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <div class="info-box">
-          <div class="info-title">
-            <img src="/transfo/images/homepage/icons/whats-new-icon.svg">
-            <h3>What's new</h3>
-          </div>
-          <div class="info-btn">
-            <a class="btn btn-primary btn-lg btn-orange" href="#" role="button">View <img src="/transfo/images/homepage/arrow-white.svg"></a>
-          </div>
-        </div>
-      </div>
-       <!----------------------BOX 2---------------------->
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <div class="info-box">
-          <div class="info-title">
-            <img src="/transfo/images/homepage/icons/transformation-at-a-glance-icon.svg">
-            <h3>Transformation at a Glance</h3>
-          </div>
-          <div class="info-btn">
-            <a class="btn btn-primary btn-lg btn-orange" href="#" role="button">View <img src="/transfo/images/homepage/arrow-white.svg"></a>
-          </div>
-        </div>
-      </div>
-</div>
-
 </div>
 
         <!-- ***** CONTENT END ***** -->
