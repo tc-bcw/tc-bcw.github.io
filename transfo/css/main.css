@@ -13,22 +13,22 @@ h1, h2, h3, h4, h5, h6 {
 	color: #00698c;
 }
 h1 {
-	font-size: 49pt;
+	font-size: 30pt;
 }
 h2 {
-	font-size: 39pt;
+	font-size: 25px;
 }
 h3 {
-	font-size: 31pt;
-}
-h4 {
-	font-size: 25pt;
-}
-h5 {
 	font-size: 20pt;
 }
-h6 {
+h4 {
+	font-size: 18pt;
+}
+h5 {
 	font-size: 16pt;
+}
+h6 {
+	font-size: 14pt;
 }
 p {
 	line-height:120%;
