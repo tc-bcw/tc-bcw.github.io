@@ -39,6 +39,10 @@ p .big {
 	width: 50px;
 	border: 2px solid #da5a26; 
 }
+hr.break {
+	margin:30px 0;
+	width:100%;
+}
 
 /* Skip head */
 #cn-skip-head {
