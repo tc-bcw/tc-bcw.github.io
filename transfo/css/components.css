@@ -56,10 +56,6 @@
 }
 
 /* Info boxes */
-.info-boxes h2, {
-	font-size:25pt;
-	color: #fff;
-}
 .info-box {
 	position:relative;
 	color: #fff;
@@ -82,6 +78,10 @@
 .info-title img {
 	margin:20px auto;
 	width:130px;
+}
+.info-boxes h2, {
+	font-size:25pt;
+	color: #fff;
 }
 .info-title h3 {
 	font-size: 20px;
@@ -125,6 +125,28 @@
 	width:20px;	
 	position:relative;
 	top:-1px;
+}
+
+/* Event boxes */
+.event-box {
+	position:relative;
+	color: #fff;
+	max-width:350px;
+	margin:50px auto 0;
+	padding-bottom:10px;
+	text-align:center;
+}
+.event-content {
+	background-color: #00698c;
+	padding:;
+	min-height:40px;
+	color:#fff;
+}
+.event-title img {
+	margin:20px auto;
+	width:130px;
+	position:relative;
+	top:-65px;
 }
 
 /* Header - compatible with Alt Nav */
