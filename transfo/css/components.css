@@ -100,6 +100,10 @@
 	padding:10px 5px;
 	color:#000;
 }
+.info-content p {
+	color:#000;
+	text-align:left;
+}
 .info-btn {
 	display: -ms-flexbox;
 	display: flex;
