@@ -11,6 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 600;
 	line-height: 100%;
 	color: #00698c;
+	margin-top:30px;
 }
 h1 {
 	font-size: 30pt;
@@ -255,6 +256,7 @@ hr.break {
 	font-size:25px; 
 	color:#00698c; 
 	text-transform:uppercase;
+	margin-top:0px;
 }
 .subsection-alt {
 	margin:20px auto 30px auto;
