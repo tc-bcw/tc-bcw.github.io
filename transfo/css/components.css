@@ -108,6 +108,7 @@ header.header {
 	color:#000;
 	border-bottom: 30px solid #00698c;
 	position:relative;
+	font-size:14px;
 }
 .intro-box a {
 	display: -ms-flexbox;
