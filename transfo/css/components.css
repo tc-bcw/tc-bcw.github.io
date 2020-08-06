@@ -161,6 +161,9 @@
 	margin:15px;
 	border-top: 2px solid #da5a26;
 }
+.event-content span {
+	font-weight:bold;
+}
 .event-content p {
 	text-align:left;
 	margin:15px;
