@@ -28,6 +28,7 @@ header.header {
 	color:#fff; 
 	text-align:center; 
 	font-size:32pt;
+	margin-top:0;
 }
 
 @media (min-width: 1200px) {
