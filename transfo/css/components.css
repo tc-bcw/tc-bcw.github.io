@@ -139,11 +139,8 @@
 .event-content {
 	background-color: #00698c;
 	padding-top:65px;
+	padding-bottom:30px;
 	min-height:40px;
-	color:#fff;
-}
-.event-content h3 {
-	margin-top:15px;
 	color:#fff;
 }
 .event-content img {
@@ -153,6 +150,30 @@
 	left:0;
 	right:0;
 	top:-65px;
+}
+.event-content h3 {
+	margin-top:15px;
+	color:#fff;
+	font-size:25px;
+}
+.event-content hr {
+	width:90%;
+	margin:15px;
+	border-top: 2px solid #da5a26;
+}
+.event-content p {
+	text-align:left;
+	margin:15px;
+}
+.event-btn a {
+	font-size: 16px;
+	text-transform:uppercase;	
+	font-weight:bold;
+}
+.event-btn a img {
+	width:20px;	
+	position:relative;
+	top:-1px;
 }
 
 /* Header - compatible with Alt Nav */
