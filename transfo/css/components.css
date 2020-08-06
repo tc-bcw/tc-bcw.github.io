@@ -76,7 +76,7 @@
 	color:#fff;
 }
 .info-title img {
-	margin:20px auto;
+	margin:12px auto;
 	width:130px;
 }
 .info-boxes h2, {
@@ -167,6 +167,7 @@
 .event-content p {
 	text-align:left;
 	margin:15px;
+	color:#fff;
 }
 .event-btn {
 	display: -ms-flexbox;
