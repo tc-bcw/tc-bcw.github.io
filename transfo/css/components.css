@@ -260,11 +260,11 @@ header.header {
 /* News Item */
 .news-item {
 	background-color:rbg(228,228,228);
-	padding:270px 15px 15px;
+	padding:270px 0 15px;
 	width:100%;
 
 }
-.news-banner {
+.news-header {
 	width:100%;
 	height:250px;
 	background-size: cover;
@@ -280,6 +280,7 @@ header.header {
 	-ms-flex-pack: center;
 	justify-content: center;
 	position:absolute;
+	bottom:0;
 	right:20px;
 	width: min-content;
 	width: -moz-min-content;
