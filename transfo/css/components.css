@@ -262,8 +262,10 @@ header.header {
 .news-banner {
 	width:100%;
 	min-height:250px;
+	background:#00698c;
 	background-size: cover;
 	padding:10px;
+	padding-bottom:76px;
 	position:relative;
 }
 .news-banner h3 {
@@ -286,6 +288,6 @@ header.header {
 }
 .news-item {
 	background-color:#eee;
-	padding: 20px;
+	padding: 20px 20px 5px;
 	width:100%;
 }
