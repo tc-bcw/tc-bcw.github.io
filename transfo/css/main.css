@@ -157,7 +157,12 @@ hr.break {
 	background-color:rgb(246,245,240);
 	padding:25px 0;
 }
-
+.ast {
+	text-align:center;
+}
+.ast h2{
+	margin-bottom:50px;
+}
 .btn-orange {
 	color:#fff;
 	background-color:#df6420;
