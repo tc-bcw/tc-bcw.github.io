@@ -1,3 +1,45 @@
+
+
+
+/* Header - compatible with Alt Nav */
+header.header {
+	position:relative;
+	height:400px; 
+	margin-bottom:50px;
+}
+.header-image {
+	position:absolute; 
+	left:0;
+	top:0;
+	background-size: cover;
+	width:100%; 
+	z-index:-10;
+	height:400px;
+}
+.header-icon {
+	width:150px; 
+	margin:0 auto; 
+	padding:50px 0 30px 0; 
+}
+.header-icon img {
+	width:100%;
+}
+.header h1 {
+	color:#fff; 
+	text-align:center; 
+	font-size:32pt;
+}
+
+@media (min-width: 1200px) {
+	header.header {
+		position:unset;
+	}
+	.header-image { 
+		height:530px; 
+		top:20px;
+	}
+}
+
 /* Carousel */
 
 .carousel-item {
@@ -53,6 +95,25 @@
 	font-size: 9pt;
 	text-decoration:none;
 	cursor: pointer;
+}
+
+/* Intro box */
+.intro-box {
+	background-color:#eae8dc;
+	width:100%;
+	margin:25px 0;
+	text-align:center;
+	color:#000;
+	border-bottom: 20px solid #00698c;
+	position:relative;
+}
+.intro-box a {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	justify-content: center;
+	position:relative;
+	right:20px;
 }
 
 /* Info boxes */
@@ -190,117 +251,4 @@
 	width:20px;	
 	position:relative;
 	top:-1px;
-}
-
-/* Header - compatible with Alt Nav */
-header.header {
-	position:relative;
-	height:400px; 
-	margin-bottom:50px;
-}
-.header-image {
-	position:absolute; 
-	left:0;
-	top:0;
-	background-size: cover;
-	width:100%; 
-	z-index:-10;
-	height:400px;
-}
-.header-icon {
-	width:150px; 
-	margin:0 auto; 
-	padding:50px 0 30px 0; 
-}
-.header-icon img {
-	width:100%;
-}
-.header h1 {
-	color:#fff; 
-	text-align:center; 
-	font-size:32pt;
-}
-
-@media (min-width: 1200px) {
-	header.header {
-		position:unset;
-	}
-	.header-image { 
-		height:530px; 
-		top:20px;
-	}
-}
-
-
-
-/* Banner */
-#outerBanner {
-	background-color: #ccc;
-	color: #fff;
-	text-align: center;
-	/*padding: 80px 3em 100px 3em;*/
-	float: right;
-	width: 100%;
-	margin-bottom: 5em;
-	background-image: url("https://hdqwalls.com/wallpapers/canada-landscape-4k.jpg");
-	background-size: cover;
-	background-position: center;
-	position: relative;
-	z-index: 999;
-}
-#outerBanner h1 {
-  font-weight: 600;
-  margin-top: 40px;
-  font-size: 35px;
-}
-#outerBanner h2 {
-  font-weight: 400;
-  font-size: 20px;
-  color: white;
-}
-#outerBanner .btn {
-  margin-top: 20px;
-  padding: 12px 26px;
-  font-weight: 600;
-  background-color: #da5a26;
-  border:none;
-}
-#outerBanner.btn:hover {
-  background-color: #bd4c20 !important;
-  border:none;
-  opacity: 1;
-  transform: translate(0, 2px); 
-}
-#outerBanner.btn:focus {
-  background-color: #bd4c20 !important;
-  border:none;
-  opacity: 1;
-  transform: translate(0, 2px); 
-}
-#outerBanner.btn:active {
-  background-color: #bd4c20 !important;
-  border:none;
-  opacity: 1;
-  transform: translate(0, 2px); 
-}
-#outerBanner.btn:focus, .btn:active 
-{	
-  box-shadow: 0 0 0 .2rem rgba(150,150,150,.5);
-}
-#banner {
-	background-color: rgba(0,0,0,.3);
-	padding: 4em;
-	max-width: 600px;
-	margin: 0 auto;
-	-webkit-backdrop-filter: blur(15px) saturate(200%); /* blur and saturate to boost colors like iOS */
-	backdrop-filter: blur(15px) saturate(200%); /* note: will not work in IE or on most Firefox setups */
-}
-.black-shade{
-	position: absolute;
-	left: 0;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	background-color: rgba(0, 0, 0, 0.25);
-	z-index: -999;
 }
