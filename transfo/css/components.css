@@ -264,6 +264,7 @@ header.header {
 	min-height:250px;
 	background-size: cover;
 	padding:10px;
+	position:relative;
 }
 .news-banner h3 {
 	color:#fff;
