@@ -256,3 +256,32 @@ header.header {
 	position:relative;
 	top:-1px;
 }
+
+/* News Item */
+.news-item {
+	background-color:rbg(228,228,228);
+	padding:270px 15px 15px;
+	width:100%;
+
+}
+.news-header {
+	width:100%;
+	height:250px;
+	background-size: cover;
+	padding:10px;
+}
+.news-header h3 {
+	color:#fff;
+	font-size:18px;
+}
+.news-header a {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	justify-content: center;
+	position:absolute;
+	right:20px;
+	width: min-content;
+	width: -moz-min-content;
+	white-space: nowrap;
+}
