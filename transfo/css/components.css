@@ -102,9 +102,10 @@ header.header {
 	background-color:#eae8dc;
 	width:100%;
 	margin:25px 0;
-	text-align:center;
+	padding:30px;
+	text-align:left;
 	color:#000;
-	border-bottom: 20px solid #00698c;
+	border-bottom: 30px solid #00698c;
 	position:relative;
 }
 .intro-box a {
@@ -112,8 +113,10 @@ header.header {
 	display: flex;
 	-ms-flex-pack: center;
 	justify-content: center;
-	position:relative;
+	position:absolute;
 	right:20px;
+	width: min-content;
+	width: -moz-min-content;
 }
 
 /* Info boxes */
