@@ -1,6 +1,10 @@
 @media (min-width: 1200px) {
 	.navbar {
-		background-color: rgba(255,255,255,0);
+		/*background-color: rgba(255,255,255,0);*/
+		background: rgb(0,0,0);
+		background: -webkit-linear-gradient(rgba(0,0,0,0.5004201509705445) 0%, rgba(0,0,0,0) 100%);
+		background: -o-linear-gradient(rgba(0,0,0,0.5004201509705445) 0%, rgba(0,0,0,0) 100%);
+		background: linear-gradient(rgba(0,0,0,0.5004201509705445) 0%, rgba(0,0,0,0) 100%);
 	}
 	.navbar-brand-en {
 		background-image: url(/transfo/images/tc-transformation-logo-white.svg);
