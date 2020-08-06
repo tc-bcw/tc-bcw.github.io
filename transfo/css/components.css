@@ -284,7 +284,7 @@ header.header {
 	width: -moz-min-content;
 }
 .news-item {
-	background-color:rbg(228,228,228);
+	background-color:rgb(228,228,228);
 	padding: 20px;
 	width:100%;
 }
