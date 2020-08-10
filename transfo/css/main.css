@@ -255,13 +255,16 @@ hr.break {
 /* Watch Video template page */
 #video-back {
 	background: #da5a26;
-	padding: 10px 20px;
+	padding: 7px 20px;
 	color: #fff;
 	text-decoration:none;
 }
 #video-back a {
 	color: #fff;
 	text-decoration:none;
+}
+#video-back a:hover, #video-back a:active {
+	font-weight:bold;
 }
 
 #video-embed {
