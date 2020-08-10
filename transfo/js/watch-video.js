@@ -1,4 +1,4 @@
-$(document).ready(function() {
+window.onload = function() {
     var queryString = window.location.search;
     console.log(queryString);
     var urlParams = new URLSearchParams(queryString);
