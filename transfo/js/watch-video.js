@@ -5,6 +5,6 @@ window.addEventListener('load', (event) => {
     var videoID = urlParams.get('v');
     if (videoID) {
         console.log("We're in the if statement.");
-        document.getElementById("pageContent").innerHTML = "<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/"+videoID+"\" frameborder=\"0\" allowfullscreen></iframe>";
+        document.getElementById("videoContent").innerHTML = "<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/"+videoID+"\" frameborder=\"0\" allowfullscreen></iframe>";
     }
 });
