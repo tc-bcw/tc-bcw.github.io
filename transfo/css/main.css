@@ -253,7 +253,7 @@ hr.break {
 }
 
 /* Watch Video template page */
-#videoContent iframe {
+#video-embed {
 	width:100%;
 	height:55vw;
 }
