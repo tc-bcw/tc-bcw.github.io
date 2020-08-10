@@ -264,7 +264,7 @@ hr.break {
 	text-decoration:none;
 }
 #video-back a:hover, #video-back a:active {
-	font-weight:bold;
+	color:rgba(255,255,255,0.7);
 }
 
 #video-embed {
