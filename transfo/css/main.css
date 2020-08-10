@@ -254,7 +254,7 @@ hr.break {
 
 /* Watch Video template page */
 #video-back {
-	background: #da5a26;
+	background: #595959;
 	padding: 7px 20px;
 	color: #fff;
 	text-decoration:none;
@@ -264,7 +264,7 @@ hr.break {
 	text-decoration:none;
 }
 #video-back a:hover, #video-back a:active {
-	color:rgba(255,255,255,0.7);
+	color:rgba(255,255,255,0.85);
 }
 
 #video-embed {
