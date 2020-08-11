@@ -251,6 +251,30 @@ hr.break {
 	padding:0px;
 	height:80vh;
 }
+.video-list {
+	margin:20px 0; 
+	border-bottom: 1px solid #ddd;
+}
+.list-video {
+	padding:20px; 
+	border: 1px solid #ddd; 
+	border-bottom:none;
+}
+.list-video a{
+	display:block; 
+	margin:0 auto; 
+	width:60px;
+}
+.list-video a img{
+	width:100%;
+}
+.list-video h6 {
+	margin-top:10px;
+}
+.list-video p {
+	margin-bottom:0;
+}
+
 
 /* Watch Video template page */
 #video-back {
