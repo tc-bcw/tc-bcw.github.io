@@ -263,8 +263,8 @@ hr.break {
 	border-bottom:1px solid #ddd;
 }
 .list-video a{
-	display:block; 
-	margin:0 auto; 
+	display:inline; 
+	margin:0 10px 0 0; 
 	width:60px;
 }
 .list-video a img{
@@ -456,6 +456,11 @@ hr.break {
 
 	#outerBanner h1 {
 		font-size: 45px;
+	}
+	.list-video a{
+		display:block; 
+		margin:0 auto; 
+		width:60px;
 	}
 }
 
