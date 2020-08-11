@@ -263,12 +263,11 @@ hr.break {
 	border-bottom:1px solid #ddd;
 }
 .list-video a{
-	display:inline; 
-	margin:0 10px 0 0; 
+	display:block; 
 	width:60px;
 	position: relative;
-	left: -20px;
-	top: 20px;
+	left: -18px;
+	top: 10px;
 }
 .list-video a img{
 	width:100%;
