@@ -7,8 +7,6 @@ window.addEventListener('load', (event) => {
         vidContent.innerHTML = "<iframe id=\"video-embed\" width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/"+videoID+"?rel=0\" frameborder=\"0\" allowfullscreen></iframe>";
         if (window.innerWidth > 1200) {
             window.scrollTo(0,188);
-        } else {
-            window.scrollTo(0,149);
         }
     }
 });
