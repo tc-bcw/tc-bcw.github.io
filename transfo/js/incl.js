@@ -16,6 +16,7 @@ function includeHTML() {
             if (lang) {
               var newText = this.responseText;
               elmnt.innerHTML = newText.replace("id=\"lang-link\" href=\"#\"","id=\"lang-link\" href=\"" + lang + "\"");
+              elmnt.removeAttribute("lang");
             } else {
               elmnt.innerHTML = this.responseText;
             }
