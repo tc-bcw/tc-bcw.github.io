@@ -232,6 +232,35 @@ hr.break {
 	top:30px;
 	right:40px;
 }
+.video-list {
+	margin:20px 0;
+}
+.list-video {
+	padding:20px; 
+	border: 1px solid #ddd; 
+	border-bottom:none;
+}
+.video-list:last-child {
+	border-bottom:1px solid #ddd;
+}
+.list-video a.img-link {
+	display:block; 
+	width:60px;
+	position: relative;
+	left: -18px;
+	top: 10px;
+}
+.list-video a img{
+	width:100%;
+}
+.list-video h6 {
+	margin-top:10px;
+}
+.list-video p {
+	margin-bottom:10px;
+}
+
+/* Video Modal styling (alt option) */
 .modal-dialog {
 	max-width:97%; 
 	margin:1rem auto;
@@ -250,33 +279,6 @@ hr.break {
 .modal-body {
 	padding:0px;
 	height:80vh;
-}
-.video-list {
-	margin:20px 0;
-}
-.list-video {
-	padding:20px; 
-	border: 1px solid #ddd; 
-	border-bottom:none;
-}
-.list-video:last-child {
-	border-bottom:1px solid #ddd;
-}
-.list-video a.img-link {
-	display:block; 
-	width:60px;
-	position: relative;
-	left: -18px;
-	top: 10px;
-}
-.list-video a img{
-	width:100%;
-}
-.list-video h6 {
-	margin-top:10px;
-}
-.list-video p {
-	margin-bottom:10px;
 }
 
 
