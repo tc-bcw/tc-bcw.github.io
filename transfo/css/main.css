@@ -252,13 +252,15 @@ hr.break {
 	height:80vh;
 }
 .video-list {
-	margin:20px 0; 
-	border-bottom: 1px solid #ddd;
+	margin:20px 0;
 }
 .list-video {
 	padding:20px; 
 	border: 1px solid #ddd; 
 	border-bottom:none;
+}
+.list-video:last-child {
+	border-bottom:1px solid #ddd;
 }
 .list-video a{
 	display:block; 
