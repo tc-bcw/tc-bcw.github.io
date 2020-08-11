@@ -266,6 +266,9 @@ hr.break {
 	display:inline; 
 	margin:0 10px 0 0; 
 	width:60px;
+	position: relative;
+	left: -20px;
+	top: 20px;
 }
 .list-video a img{
 	width:100%;
@@ -461,6 +464,7 @@ hr.break {
 		display:block; 
 		margin:0 auto; 
 		width:60px;
+		position: static;
 	}
 }
 
