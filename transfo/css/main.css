@@ -262,7 +262,7 @@ hr.break {
 .list-video:last-child {
 	border-bottom:1px solid #ddd;
 }
-.list-video a{
+.list-video a.img-link {
 	display:block; 
 	width:60px;
 	position: relative;
@@ -459,7 +459,7 @@ hr.break {
 	#outerBanner h1 {
 		font-size: 45px;
 	}
-	.list-video a{
+	.list-video a.img-link {
 		display:block; 
 		margin:0 auto; 
 		width:60px;
