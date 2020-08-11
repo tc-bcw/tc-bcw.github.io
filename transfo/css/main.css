@@ -198,7 +198,7 @@ hr.break {
 .video {
 	 background-size:cover;
 	 width:100%;
-	 height:600px;
+	 height:450px;
 	 position:relative;
 }
 .shade {
@@ -208,7 +208,7 @@ hr.break {
 	background-color:rgba(255,255,255,0.8);
 	width:100%;
 	max-width:500px;
-	height:600px;
+	height:inherit;
 }
 .video-left .shade {
 	right:auto;
