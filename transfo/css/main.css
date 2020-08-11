@@ -240,7 +240,7 @@ hr.break {
 	border: 1px solid #ddd; 
 	border-bottom:none;
 }
-.video-list:last-child {
+.list-video:last-child {
 	border-bottom:1px solid #ddd;
 }
 .list-video a.img-link {
