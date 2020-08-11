@@ -298,6 +298,7 @@ hr.break {
 #video-embed {
 	width:100%;
 	height:56.25vw;
+	max-height:100vh;
 }
 
 
