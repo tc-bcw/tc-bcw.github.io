@@ -16,7 +16,7 @@ $(function () {
 
 var stopVideo = function ( element ) {
     var frame = document.getElementById('modal-body');
-    frame.innerHTML = "";
+    frame.innerHTML = ' <div class="loader"></div> ';
 };
 
 var vidModalFill = function ( vidId ) {
