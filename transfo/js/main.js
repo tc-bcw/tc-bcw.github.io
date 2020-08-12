@@ -15,18 +15,11 @@ $(function () {
 });
 
 var stopVideo = function ( element ) {
-    var iframe = element.querySelector( 'iframe');
-    var video = element.querySelector( 'video' );
-    if ( iframe !== null ) {
-        var iframeSrc = iframe.src;
-        iframe.src = iframeSrc;
-    }
-    if ( video !== null ) {
-        video.pause();
-    }
+    var frame = document.getElementById('modal-body');
+    frame.innerHTML = "";
 };
 
-var modalFill = function ( vidId ) {
+var vidModalFill = function ( vidId ) {
     var frame = document.getElementById('modal-body');
     frame.innerHTML = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/' + vidId + '" frameborder="0" allowfullscreen></iframe>"';
 }
