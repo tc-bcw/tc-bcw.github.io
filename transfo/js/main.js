@@ -25,3 +25,8 @@ var stopVideo = function ( element ) {
         video.pause();
     }
 };
+
+var modalFill = function ( vidID ) {
+    var frame = document.getElementByID('modal-body');
+    frame.innerContent = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/' + vidID + '" frameborder="0" allowfullscreen></iframe>"';
+}
