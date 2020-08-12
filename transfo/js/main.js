@@ -24,8 +24,8 @@ var vidModalFill = function ( vidId ) {
     frame.innerHTML = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/' + vidId + '?rel=0" frameborder="0" allowfullscreen></iframe>"';
 };
 
-$('#modal').on('hidden.bs.modal', function () {
-    var frame = document.getElementById('modal-body');
-    frame.innerHTML = '<div class="loader"></div>';
+$("#modal").on('hide.bs.modal', function () {
+    // var frame = document.getElementById('modal-body');
+    // frame.innerHTML = '<div class="loader"></div>';
     alert("Function is working...");
 })
