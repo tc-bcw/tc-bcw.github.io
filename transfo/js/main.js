@@ -21,9 +21,8 @@ var vidModalFill = function ( vidId ) {
 // Empty contents on modal close
 $(document).ready(function(){
     $("#videoModal").on('hide.bs.modal', function () {
-        // alert("Function is working...");
         $("#modal-video").empty();;
     });
 });
 
-console.log("test v10");
+console.log("test v11");
