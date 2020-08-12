@@ -19,7 +19,7 @@ var stopVideo = function ( element ) {
     frame.innerHTML = ' <div class="loader"></div> ';
 };
 
-// var vidModalFill = function ( vidId ) {
-//     var frame = document.getElementById('modal-body');
-//     frame.innerHTML = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/' + vidId + '" frameborder="0" allowfullscreen></iframe>"';
-// }
+var vidModalFill = function ( vidId ) {
+    var frame = document.getElementById('modal-body');
+    frame.innerHTML = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/' + vidId + '" frameborder="0" allowfullscreen></iframe>"';
+}
