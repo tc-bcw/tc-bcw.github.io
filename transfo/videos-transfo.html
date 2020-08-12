@@ -53,7 +53,29 @@
 
         <!-- ***** CONTENT GOES HERE ***** -->
 
+<!-- Invisible H1 tag for screenreaders -->
+
 <h1 class="sr-only">Vidéos de la transformation</h1>
+
+
+<!-- Blank modal - populated by Javascript -->
+
+<div id="videoModal" class="modal fade" aria-labelledby="modal-label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title sr-only" id="modal-label">Vidéo</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div id="modal-body">
+                 <div class="loader"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Featured videos – link onclick passes YouTube url code to the modal -->
 
 <div class="video" style="background-image:url('/transfo/images/video/img-transparency-min.png');">
   <div class="shade">
@@ -62,7 +84,7 @@
       <p>Découvrez comment l’initiative de Programme de surveillance de TC contribue à renforcer la confiance du public dans la sécurité et sureté de notre système de transport.</p>
     </div>
   </div>
-  <a class="shade-link" href="/transfo/regarder-video?v=8WBgLeYlc6o"><img src="/transfo/images/video/play-button-orange.svg" alt="Play button"></a>
+  <a href="#videoModal" data-toggle="modal" onclick="vidModalFill('8WBgLeYlc6o');"><img src="/transfo/images/video/play-button-orange.svg" alt="Bouton jouer"></a>
 </div>
 
 <div class="video video-left" style="background-image:url('/transfo/images/video/img-drone-min.png');">
@@ -72,7 +94,7 @@
       <p>Améliorer les services aux Canadiens avec la mise en œuvre d’un portail de gestion des drones. En savoir plus !</p>
     </div>
   </div>
-  <a class="shade-link" href="/transfo/regarder-video?v=w5XqITFqBvA"><img src="/transfo/images/video/play-button-orange.svg" alt="Play button"></a>
+  <a href="#videoModal" data-toggle="modal" onclick="vidModalFill('w5XqITFqBvA');"><img src="/transfo/images/video/play-button-orange.svg" alt="Bouton jouer"></a>
 </div>
 
 <div class="video" style="background-image:url('/transfo/images/video/img-hww-min.png');">
@@ -82,16 +104,17 @@
       <p>Découvrez le nouveau Livre de jeux – Comment nous travaillons, et voyez comment il contribue à la transformation</p>
     </div>
   </div>
-  <a class="shade-link" href="/transfo/regarder-video?v=7jatntG-fvE"><img src="/transfo/images/video/play-button-orange.svg" alt="Play button"></a>
+  <a href="#videoModal" data-toggle="modal" onclick="vidModalFill('7jatntG-fvE');"><img src="/transfo/images/video/play-button-orange.svg" alt="Bouton jouer"></a>
 </div>
 
-<!-- Video List -->
+<!-- Video list – link onclick passes YouTube url code to the modal -->
+
 <div class="container">
   <h2>Encore plus</h2>
   <div class="video-list">
     <div class="list-video row">
       <div class="col-2 col-lg-1">
-        <a class="img-link" href="/transfo/regarder-video?v=M4pTN9boRkc"><img src="/transfo/images/video/play-button-orange.svg" alt="Play button"></a>
+          <a class="img-link" href="#videoModal" data-toggle="modal" onclick="vidModalFill('M4pTN9boRkc');"><img src="/transfo/images/video/play-button-orange.svg" alt="Bouton jouer"></a>
       </div>
       <div class="col-10 col-lg-11">
         <h6>TransformACTION: Le port de Vancouver et le projet de visibilité des chaines d’approvisionnement</h6>
@@ -101,7 +124,7 @@
 
     <div class="list-video row">
       <div class="col-2 col-lg-1">
-        <a class="img-link" href="/transfo/regarder-video?v=9HWcXUmbYLg"><img src="/transfo/images/video/play-button-orange.svg" alt="Play button"></a>
+          <a class="img-link" href="#videoModal" data-toggle="modal" onclick="vidModalFill('9HWcXUmbYLg');"><img src="/transfo/images/video/play-button-orange.svg" alt="Bouton jouer"></a>
       </div>
       <div class="col-10 col-lg-11">
         <h6>La Transformation à TC - L'année 2019 en photosǃ</h6>
@@ -111,7 +134,7 @@
 
     <div class="list-video row">
       <div class="col-2 col-lg-1">
-        <a class="img-link" href="/transfo/regarder-video?v=SmtYP5snC1w"><img src="/transfo/images/video/play-button-orange.svg" alt="Play button"></a>
+          <a class="img-link" href="#videoModal" data-toggle="modal" onclick="vidModalFill('SmtYP5snC1w');"><img src="/transfo/images/video/play-button-orange.svg" alt="Bouton jouer"></a>
       </div>
       <div class="col-10 col-lg-11">
         <h6>TransformAction: Un environnement sans papier</h6>
@@ -121,7 +144,7 @@
 
     <div class="list-video row">
       <div class="col-2 col-lg-1">
-        <a class="img-link" href="/transfo/regarder-video?v=EsQORR0pzLY"><img src="/transfo/images/video/play-button-orange.svg" alt="Play button"></a>
+          <a class="img-link" href="#videoModal" data-toggle="modal" onclick="vidModalFill('EsQORR0pzLY');"><img src="/transfo/images/video/play-button-orange.svg" alt="Bouton jouer"></a>
       </div>
       <div class="col-10 col-lg-11">
         <h6>TransformAction: Centre canadien de données sur les transports (CCDT)</h6>
@@ -131,7 +154,7 @@
 
     <div class="list-video row">
       <div class="col-2 col-lg-1">
-        <a class="img-link" href="/transfo/regarder-video?v=SnAkJZ7P3aM"><img src="/transfo/images/video/play-button-orange.svg" alt="Play button"></a>
+          <a class="img-link" href="#videoModal" data-toggle="modal" onclick="vidModalFill('SnAkJZ7P3aM');"><img src="/transfo/images/video/play-button-orange.svg" alt="Bouton jouer"></a>
       </div>
       <div class="col-10 col-lg-11">
         <h6>TransformAction: Modernisation législative</h6>
@@ -141,7 +164,7 @@
 
     <div class="list-video row">
       <div class="col-2 col-lg-1">
-        <a class="img-link" href="/transfo/regarder-video?v=d9mZ9LW3PpM"><img src="/transfo/images/video/play-button-orange.svg" alt="Play button"></a>
+          <a class="img-link" href="#videoModal" data-toggle="modal" onclick="vidModalFill('d9mZ9LW3PpM');"><img src="/transfo/images/video/play-button-orange.svg" alt="Bouton jouer"></a>
       </div>
       <div class="col-10 col-lg-11">
         <h6>TransformAction: Ciblage du fret aérien préalable au chargement (CFAPC)</h6>
@@ -151,7 +174,7 @@
 
     <div class="list-video row">
       <div class="col-2 col-lg-1">
-        <a class="img-link" href="/transfo/regarder-video?v=pC_kgGVE2_Q"><img src="/transfo/images/video/play-button-orange.svg" alt="Play button"></a>
+          <a class="img-link" href="#videoModal" data-toggle="modal" onclick="vidModalFill('pC_kgGVE2_Q');"><img src="/transfo/images/video/play-button-orange.svg" alt="Bouton jouer"></a>
       </div>
       <div class="col-10 col-lg-11">
         <h6>TransformAction: l'Automatisation des Processus Robotisés (APR)</h6>
@@ -161,7 +184,7 @@
 
     <div class="list-video row">
       <div class="col-2 col-lg-1">
-        <a class="img-link" href="/transfo/regarder-video?v=v-a8UticJyQ"><img src="/transfo/images/video/play-button-orange.svg" alt="Play button"></a>
+          <a class="img-link" href="#videoModal" data-toggle="modal" onclick="vidModalFill('v-a8UticJyQ');"><img src="/transfo/images/video/play-button-orange.svg" alt="Bouton jouer"></a>
       </div>
       <div class="col-10 col-lg-11">
         <h6>Sûreté du transport terrestre et intermodal et préparatifs d’urgence de Transports Canada</h6>
@@ -172,7 +195,7 @@
 
     <div class="list-video row">
       <div class="col-2 col-lg-1">
-        <a class="img-link" href="/transfo/regarder-video?v=tipOH2j20s4"><img src="/transfo/images/video/play-button-orange.svg" alt="Play button"></a>
+          <a class="img-link" href="#videoModal" data-toggle="modal" onclick="vidModalFill('tipOH2j20s4');"><img src="/transfo/images/video/play-button-orange.svg" alt="Bouton jouer"></a>
       </div>
       <div class="col-10 col-lg-11">
         <h6>Transports Canada Sécurité maritime (SMTC)</h6>

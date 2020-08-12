@@ -26,4 +26,4 @@ $(document).ready(function(){
     });
 });
 
-console.log("test v5");
+console.log("test v7");
