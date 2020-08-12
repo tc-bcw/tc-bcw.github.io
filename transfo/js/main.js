@@ -15,12 +15,13 @@ $(function () {
 });
 
 $("#modal").on('hide.bs.modal', function () {
+    alert("Function is working...");
+    // $("#modal-body").html('<div class="loader"></div>');
 });
 
 var stopVideo = function () {
     // var frame = document.getElementById('modal-body');
     // frame.innerHTML = '<div class="loader"></div>';
-    alert("Function is working...");
 };
 
 var vidModalFill = function ( vidId ) {
