@@ -15,7 +15,7 @@ $(function () {
 
 //  Populate video modal with YouTube iFrame
 var vidModalFill = function ( vidId ) {
-    $('#modal-video').html('<iframe width="100%" height="100%" src="https://www.youtube.com/embed/' + vidId + '?rel=0" frameborder="0" allowfullscreen></iframe>"');
+    $('#modal-video').html('<iframe width="100%" height="100%" src="https://www.youtube.com/embed/' + vidId + '?rel=0" frameborder="0" allowfullscreen></iframe>');
 };
 
 // Empty contents on modal close
@@ -25,4 +25,4 @@ $(document).ready(function(){
     });
 });
 
-console.log("test v12");
+console.log("test v13");
