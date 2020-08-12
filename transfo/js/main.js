@@ -14,10 +14,10 @@ $(function () {
     });
 });
 
-// var stopVideo = function () {
-//     var frame = document.getElementById('modal-body');
-//     frame.innerHTML = '<div class="loader"></div>';
-// };
+var stopVideo = function () {
+    // var frame = document.getElementById('modal-body');
+    // frame.innerHTML = '<div class="loader"></div>';
+};
 
 var vidModalFill = function ( vidId ) {
     var frame = document.getElementById('modal-body');
