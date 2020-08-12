@@ -289,20 +289,6 @@ hr.break {
     left: 0;
     top: 0;
 }
- .loader {
-  border: 10px solid #888; /* Light grey */
-  border-top: 10px solid #fff; /* White */
-  border-radius: 50%;
-  width: 75px;
-  height: 75px;
-  animation: spin 2s linear infinite;
-  margin: 100px auto 0;
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
 
 
 /* Watch Video template page (alt option) */
