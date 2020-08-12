@@ -14,8 +14,9 @@ $(function () {
     });
 });
 
-$("#modal").on('hide.bs.modal', function () {
-    alert("Function is working...");
+$("#modal")
+    .on('hide.bs.modal', function () {
+        alert("Function is working...");
     // $("#modal-body").html('<div class="loader"></div>');
 });
 

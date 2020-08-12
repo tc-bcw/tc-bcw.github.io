@@ -59,10 +59,11 @@
 
 <!-- Blank modal - populated by Javascript -->
 
-<div id="modal" class="modal fade">
+<div id="modal" class="modal fade" aria-labelledby="modal-label" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
+                <h4 class="modal-title sr-only" id="modal-label">YouTube Video</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true" onclick="stopVideo();">&times;</button>
             </div>
             <div id="modal-body">
