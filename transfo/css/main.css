@@ -160,10 +160,10 @@ hr.break {
 .ast {
 	text-align:center;
 }
-.ast h2{
+.ast h2 {
 	margin-bottom:50px;
 }
-.ast span{
+.ast h2 span {
 	margin:0 5px;
 }
 .btn-orange {
