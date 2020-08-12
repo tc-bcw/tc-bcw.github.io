@@ -32,4 +32,4 @@ $(document).ready(function(){
     });
 });
 
-console.log ("trial v1");
+console.log ("trial v2");
