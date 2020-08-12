@@ -25,9 +25,11 @@ var vidModalFill = function ( vidId ) {
     $('#modal-body').html('<iframe width="100%" height="100%" src="https://www.youtube.com/embed/' + vidId + '?rel=0" frameborder="0" allowfullscreen></iframe>"');
 };
 
+$(document).ready(function(){
     $("#modal").on('hide.bs.modal', function () {
         // alert("Function is working...");
         $("#modal-body").html('<div class="loader"></div>');
     });
+});
 
-console.log ("trial v3");
+console.log ("trial v4");
