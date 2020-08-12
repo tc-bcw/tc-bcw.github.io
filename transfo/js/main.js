@@ -21,7 +21,7 @@ var stopVideo = function () {
 
 var vidModalFill = function ( vidId ) {
     var frame = document.getElementById('modal-body');
-    frame.innerHTML = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/' + vidId + '&rel=0" frameborder="0" allowfullscreen></iframe>"';
+    frame.innerHTML = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/' + vidId + '?rel=0" frameborder="0" allowfullscreen></iframe>"';
 };
 
 $('#modal').on('hidden.bs.modal', function (e) {
