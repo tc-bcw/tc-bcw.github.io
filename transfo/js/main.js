@@ -27,8 +27,8 @@ var vidModalFill = function ( vidId ) {
 
 $(document).ready(function(){
     $("#modal").on('hide.bs.modal', function () {
-        alert("Function is working...");
-        // $("#modal-body").html('<div class="loader"></div>');
+        // alert("Function is working...");
+        $("#modal-body").html('<div class="loader"></div>');
     });
 });
 
