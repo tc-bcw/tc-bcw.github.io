@@ -45,9 +45,6 @@ hr.break {
 	margin:30px 0;
 	width:100%;
 }
-a.external::after {
-	content: "&#128279;";
-}
 
 /* Skip head */
 #cn-skip-head {
