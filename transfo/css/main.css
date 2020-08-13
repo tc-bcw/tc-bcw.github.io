@@ -117,17 +117,17 @@ hr.break {
 	min-height:auto;
 	/*padding: 20px 20px;*/
 }
-.navbar-brand-en {
+.navbar-brand {
 	width: 225px;
-	background-image: url(/transfo/images/tc-transformation-logo.svg);
 	height: 75px;
 	background-size: contain;
+	background-repeat:no-repeat;
+}
+.navbar-brand-en {
+	background-image: url(/transfo/images/tc-transformation-logo.svg);
 }
 .navbar-brand-fr {
-	width: 225px;
 	background-image: url(/transfo/images/tc-transformation-logo-fr.svg);
-	height: 75px;
-	background-size: contain;
 }
 .navbar img {
 	width: 100%;
