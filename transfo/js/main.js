@@ -25,4 +25,4 @@ $(document).ready(function(){
     });
 });
 
-console.log("test v15");
+// console.log("test v15");
