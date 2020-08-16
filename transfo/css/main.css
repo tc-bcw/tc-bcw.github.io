@@ -46,7 +46,7 @@ hr.break {
 	width:100%;
 }
 a.internal::after {
-	content: " 🔒"
+	content: " 🔒"
 }
 
 /* Skip head */
