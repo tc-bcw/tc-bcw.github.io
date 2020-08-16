@@ -23,6 +23,7 @@ header.header {
 }
 .header-icon img {
 	width:100%;
+	border-radius:80px;
 }
 .header h1 {
 	color:#fff; 
@@ -110,7 +111,7 @@ header.header {
 	position:relative;
 	font-size:14px;
 }
-.intro-box a {
+.intro-box a.more {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-pack: center;
