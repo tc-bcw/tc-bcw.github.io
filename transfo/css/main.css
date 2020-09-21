@@ -39,7 +39,7 @@ p .big {
 }
 .hr-tick-center {
 	width: 50px;
-	border: 2px solid #da5a26; 
+	border: 2px solid #da5a26;
 }
 hr.break {
 	margin:30px 0;
@@ -69,14 +69,14 @@ a.internal::after {
 	margin: 0;
 	overflow: visible;
 	position: static;
-	width: auto; 
+	width: auto;
 }
 
 /*Landing page*/
 .landing-bg {
 	height: 100%;
 	position: fixed;
-	width: 100%;; 
+	width: 100%;;
 }
 .landing-bg img {
 	position: absolute;
@@ -110,7 +110,7 @@ a.internal::after {
 
 /*Orange top line*/
 .top-gap {
-	height:20px; 
+	height:20px;
 	background-color:#da5a26;
 }
 
@@ -180,6 +180,17 @@ a.internal::after {
 	border-color:#cf5b1b !important;
 }
 
+.btn-blue {
+	color:#fff;
+	background-color:##00698c;
+	border-color:##00698c;
+	padding-bottom: 0.4rem;
+}
+.btn-blue:active, .btn-blue:hover, .btn-blue:focus {
+	background-color:#005a79 !important;
+	border-color:#005a79 !important;
+}
+
 /* FullCalendar styling */
 
 .fc-right {
@@ -242,15 +253,15 @@ a.internal::after {
 	margin:20px 0;
 }
 .list-video {
-	padding:20px; 
-	border: 1px solid #ddd; 
+	padding:20px;
+	border: 1px solid #ddd;
 	border-bottom:none;
 }
 .list-video:last-child {
 	border-bottom:1px solid #ddd;
 }
 .list-video a.img-link {
-	display:block; 
+	display:block;
 	width:60px;
 	position: relative;
 	left: -18px;
@@ -268,7 +279,7 @@ a.internal::after {
 
 /* Video Modal  */
 .modal-dialog {
-	width:97%; 
+	width:97%;
 	max-width:149vh;
 	margin:1rem auto;
 }
@@ -327,8 +338,8 @@ a.internal::after {
 	margin-top:25px;
 }
 .subsection h2 {
-	font-size:25px; 
-	color:#00698c; 
+	font-size:25px;
+	color:#00698c;
 	text-transform:uppercase;
 	margin-top:0px;
 }
@@ -350,17 +361,17 @@ a.internal::after {
 	margin-bottom:0;
 }
 .vision-box {
-	position:relative; 
-	width:100%; 
-	margin-top:25px; 
-	padding: 40px 25px 10px 25px; 
-	background-color:#f6f5f0; 
+	position:relative;
+	width:100%;
+	margin-top:25px;
+	padding: 40px 25px 10px 25px;
+	background-color:#f6f5f0;
 	text-align:center;
 }
 .vision-title {
-	color:#fff; 
-	border-radius:19px; 
-	font-size:20px; 
+	color:#fff;
+	border-radius:19px;
+	font-size:20px;
 	text-transform:uppercase;
 	width: 50%;
 	margin: 0 auto;
@@ -376,9 +387,9 @@ a.internal::after {
 	text-align:right;
 }
 .vision-print a {
-	color:#595959; 
-	font-size:10pt; 
-	text-decoration:none; 
+	color:#595959;
+	font-size:10pt;
+	text-decoration:none;
 	margin-top:25px;
 }
 .transfo-plan h3 {
@@ -395,9 +406,9 @@ a.internal::after {
 	width:100%;
 }
 .transfo-plan-print {
-	text-align: center; 
-	font-size: 14pt; 
-	color: #fff; 
+	text-align: center;
+	font-size: 14pt;
+	color: #fff;
 	padding:40px 20px 75px 20px;
 	background-color: #00698c;
 	font-weight:bold;
@@ -432,7 +443,7 @@ a.internal::after {
 	margin:0 auto;
 }
 #TC-logo img {
-	max-width: 300px; 
+	max-width: 300px;
 	margin-top: 20px;
 }
 #back-to-top a, #back-to-top a:active {
@@ -478,8 +489,8 @@ a.internal::after {
 		font-size: 45px;
 	}
 	.list-video a.img-link {
-		display:block; 
-		margin:0 auto; 
+		display:block;
+		margin:0 auto;
 		width:60px;
 		position: static;
 	}
@@ -503,11 +514,11 @@ a.internal::after {
 
 @media (min-width: 1200px) {
 	#lang-toggle {
-		position:relative; 
-		top:-50px; 
-		background-color:#da5a26; 
-		color:#fff; 
-		border-radius:0 0 5px 5px; 
+		position:relative;
+		top:-50px;
+		background-color:#da5a26;
+		color:#fff;
+		border-radius:0 0 5px 5px;
 		padding:0px 5px;
 		font-weight:normal;
 	}
