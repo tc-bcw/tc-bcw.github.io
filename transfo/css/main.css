@@ -180,17 +180,6 @@ a.internal::after {
 	border-color:#cf5b1b !important;
 }
 
-.btn-blue {
-	color:#fff;
-	background-color:##00698c;
-	border-color:##00698c;
-	padding-bottom: 0.4rem;
-}
-.btn-blue:active, .btn-blue:hover, .btn-blue:focus {
-	background-color:#005a79 !important;
-	border-color:#005a79 !important;
-}
-
 /* FullCalendar styling */
 
 .fc-right {
